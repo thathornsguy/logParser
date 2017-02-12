@@ -3,6 +3,8 @@ Python Version: 3
 -In order to execute via the run.bat you must have a 32 bit version of python installed at the end of the default python path
 -This program expects all files in the chosen directory to be named exactly as the TLOPO launcher creates them. If this naming scheme is not used the program will crash.
 
+Files Needed to execute: parser.py datastorage.py windowClasses.py (optional: run.bat)
+
 Usage:
 1. Execute the python script either using the bat file or executing parser.py via command line
 2. Select a directory containing log files matching the naming scheme produced by the TLOPO executable
