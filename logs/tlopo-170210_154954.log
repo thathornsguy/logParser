@@ -1,0 +1,1060 @@
+Fri Feb 10 15:49:54 2017: TLOPO_GAMESERVER = gs-1.piratesonline.co
+Fri Feb 10 15:49:54 2017: TLOPO_PLAYCOOKIE = 4d9b017b73cd25388199cd1df4da7295
+Fri Feb 10 15:49:54 2017: PLocalizer: Running in language: English
+Fri Feb 10 15:49:54 2017: PiratesStart: Starting the game.
+Fri Feb 10 15:49:59 2017: :PiratesStart: getDriverVendor NVIDIA Corporation
+Fri Feb 10 15:49:59 2017: :PiratesStart: getDriverRenderer GeForce GTX 1060 3GB/PCIe/SSE2
+Fri Feb 10 15:49:59 2017: :PiratesStart: getDriverVersion 4.5.0 NVIDIA 376.53
+Fri Feb 10 15:49:59 2017: serverVersion:  tlopo-beta-v1.3.8
+Fri Feb 10 15:50:00 2017: Initializing quest ladders...
+Fri Feb 10 15:50:38 2017: Cannot configure initialisation option "scale" for DirectFrame
+Fri Feb 10 15:50:40 2017: setActiveQuest: dm1.visitJohnnyMcvane
+Fri Feb 10 16:12:10 2017: left area Marching Grounds
+Fri Feb 10 16:13:10 2017: setActiveQuest: rs1.5recovercoal
+Fri Feb 10 16:13:13 2017: presentQuestReset None
+Fri Feb 10 16:52:41 2017: left area Marching Grounds
+reated output of type ParasiteBuffer
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BriosoPro_chipped.bam
+:text(warning): Creating default TextProperties for name 'purple'
+:text(warning): Creating default TextProperties for name 'orange'
+:text(warning): Creating default TextProperties for name 'maroon'
+:text(warning): Creating default TextProperties for name 'lightGold'
+:downloader: [1EC2357C] begin CONNECT [ s://gs-1.piratesonline.co:7969 ]
+:display: Created output of type ParasiteBuffer
+:downloader: [1EC2357C] Could not establish SSL handshake with gs-1.piratesonline.co:7969
+:downloader: [215E38EC] begin CONNECT [ s://gs-1.piratesonline.co:7969 ]
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:downloader: Server certificate is pre-approved.
+:downloader: [215E38EC] Self-signed certificate from gs-1.piratesonline.co:7969
+:prc(warning): changing type for ConfigVariable want-avatar-shadows from int to bool.
+:prc(warning): changing type for ConfigVariable want-shaders from int to bool.
+:prc(warning): changing type for ConfigVariable want-water-reflection from int to bool.
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BriosoPro_bold_outline.bam
+:display: Created output of type ParasiteBuffer
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BardiT_outline.bam
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display:windisplay: begin QueryPerformanceFrequency
+:display:windisplay: QueryPerformanceFrequency: 14318180
+:display:windisplay: CPU frequency: 3917810002
+:display:windisplay: start CPU ID
+:display:windisplay: end CPU ID
+:display:windisplay: 3 CPU cores, with 6 logical processors.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture particleDarkSmoke with mipmaps
+:display:gsg:glgsg: reloading texture particleDarkSmoke with mipmaps
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture world_map_base with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_swd_cutlass_k with mipmaps
+:display:gsg:glgsg: reloading texture swordtrail_lines with mipmaps
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture particleSmoke with mipmaps
+:display:gsg:glgsg: reloading texture particleSmoke with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture ship_arms_props_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture ship_arms_props_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture particleSpark with mipmaps
+:display:gsg:glgsg: reloading texture particleSplash with mipmaps
+:display:gsg:glgsg: reloading texture particleSplash with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture particleFire2 with mipmaps
+:display:gsg:glgsg: reloading texture particleFire2 with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-943 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-943 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture particleRockShower with mipmaps
+:display:gsg:glgsg: reloading texture particleRockShower with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture pir_t_hnd_swd_cutlass_a with mipmaps
+:display:gsg:glgsg: reloading texture effects2_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture effectShockwave1 with mipmaps
+:display:gsg:glgsg: reloading texture effects2_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture particleGlow with mipmaps
+:display:gsg:glgsg: reloading texture effectHitSplatA with mipmaps
+:display:gsg:glgsg: reloading texture Jolly_skull with mipmaps
+:display:gsg:glgsg: reloading texture particleSparkles with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_gun_multiBarrel_d with mipmaps
+:display:gsg:glgsg: reloading texture particleDot with mipmaps
+:linmath(warning): Tried to invert singular LMatrix3.
+:display:gsg:glgsg: reloading texture treasure_chest_palette_3cmla_1 with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture water_ripple3 with mipmaps
+:display:gsg:glgsg: reloading texture water_ripple3 with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-3296 in state started.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-3296 in state final.
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture FP_pant_skirt_layered with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_short_boots_3buckle with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_vest_closed_brownpurple with mipmaps
+:display:gsg:glgsg: reloading texture FP_navy_hat with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_feather with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_skirt_layered with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_short_boots_3buckle with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_vest_closed_brownpurple with mipmaps
+:display:gsg:glgsg: reloading texture FP_navy_hat with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_feather with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_skirt_layered with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_short_boots_3buckle with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_vest_closed_brownpurple with mipmaps
+:display:gsg:glgsg: reloading texture FP_navy_hat with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_feather with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_skirt_layered with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_short_boots_3buckle with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_vest_closed_brownpurple with mipmaps
+:display:gsg:glgsg: reloading texture FP_navy_hat with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_feather with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_skirt_layered with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_short_boots_3buckle with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_vest_closed_brownpurple with mipmaps
+:display:gsg:glgsg: reloading texture FP_navy_hat with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_feather with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_gun_musket_a with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-3621 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-3621 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-3681 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-3681 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-3810 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-3810 in state final.
+:display:gsg:glgsg: reloading texture pir_t_hnd_trs_bag with mipmaps
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-4515 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-4515 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-4527 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-4527 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-4978 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-4978 in state final.
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:interval(warning): CInterval::priv_finalize() called for LerpScaleInterval-5850 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpScaleInterval-5850 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-5849 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-5849 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-5921 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-5921 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpScaleInterval-5934 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpScaleInterval-5934 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-5933 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-5933 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-6194 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-6194 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-6793 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-6793 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CInterval::priv_finalize() called for LerpScaleInterval-6997 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpScaleInterval-6997 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-6996 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-6996 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-7941 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-7941 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-8018 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-8018 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-8358 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-8358 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-8431 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-8431 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-9416 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-9416 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-9466 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-9466 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-9554 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-9554 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-9600 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-9600 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture particleVolcanoSmoke with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture FP_pant_shorts_blue_stripes with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_medium_boots_black-topstitch with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_stitches with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_stitches with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_sash_blue_belt with mipmaps
+:display:gsg:glgsg: reloading texture FP_coat_long_advanced_outfit with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_closed_advanced_outfit with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture tattoo_chest_mono_tribal_01 with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_chest_color_squid_ship with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_knee_high_boots_blue with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_puffy_front_tie with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_arm_mono_tribal_01 with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_sleeve_mono_tribal04 with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_chest_mono_tribal_01 with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_chest_color_squid_ship with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_knee_high_boots_blue with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_puffy_front_tie with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_arm_mono_tribal_01 with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_sleeve_mono_tribal04 with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_strap_LeatherBrown with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_buckle_SkullGold with mipmaps
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture water_ripple with mipmaps
+:display:gsg:glgsg: reloading texture water_ripple with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture pig with mipmaps
+:display:gsg:glgsg: reloading texture pig with mipmaps
+:display:gsg:glgsg: reloading texture pig with mipmaps
+:display:gsg:glgsg: reloading texture pig with mipmaps
+:display:gsg:glgsg: reloading texture pig with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture PM_coat_short_red_blackleathertrim with mipmaps
+:display:gsg:glgsg: reloading texture PM_coat_short_red_blackleathertrim with mipmaps
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-11140 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-11140 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-11152 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-11152 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-11163 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-11163 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-11214 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-11214 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-11226 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-11226 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-11432 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-11432 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-11443 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-11443 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-11454 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-11454 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-11580 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-11580 in state final.
+:display:gsg:glgsg: reloading texture swordtrail_lines with mipmaps
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-11717 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-11717 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-11740 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-11740 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-12002 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-12002 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-12048 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-12048 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-12087 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-12087 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpScaleInterval-12252 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpScaleInterval-12252 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-12251 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-12251 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-12345 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-12345 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-12358 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-12358 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-12660 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-12660 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-12733 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-12733 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-12748 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-12748 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-12852 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-12852 in state final.
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture FP_corset_high_LeatherStraps with mipmaps
+:display:gsg:glgsg: reloading texture FP_corset_high_LeatherStraps with mipmaps
+:display:gsg:glgsg: reloading texture FP_corset_high_LeatherStraps with mipmaps
+:display:gsg:glgsg: reloading texture FP_corset_high_LeatherStraps with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_long_closed_a with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_long_closed_a with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_long_closed_a with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_tall_boots_black_furtop with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_long_closed_a with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_tall_boots_black_furtop with mipmaps
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-13029 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-13029 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-13254 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-13254 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-13261 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-13261 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-13536 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-13536 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-13576 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-13576 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-13583 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-13583 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-13684 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-13684 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-13840 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-13840 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-14004 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-14004 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-14088 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-14088 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-14198 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-14198 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-14322 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-14322 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-14329 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-14329 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-14405 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-14405 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-14639 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-14639 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-14647 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-14647 in state final.
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_tucked_leather_miniknives with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-14843 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-14843 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-14931 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-14931 in state final.
+:display:gsg:glgsg: reloading texture pir_t_hnd_swd_cutlass_e with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_swd_cage_black with mipmaps
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-15164 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-15164 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-15333 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-15333 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-15340 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-15340 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-15502 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-15502 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpScaleInterval-15655 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpScaleInterval-15655 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-15654 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-15654 in state final.
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:interval(warning): CInterval::priv_finalize() called for LerpScaleInterval-16036 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpScaleInterval-16036 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-16035 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-16035 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-16043 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-16043 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-16670 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-16670 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-16721 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-16721 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-16774 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-16774 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpScaleInterval-16784 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpScaleInterval-16784 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-16783 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-16783 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-16793 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-16793 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_tucked_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_cloth_brown_leather with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_cloth_brown_leather with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_cloth_brown_leather with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_cloth_brown_leather with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_tucked_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_cloth_brown_leather with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_cloth_brown_leather with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_cloth_brown_leather with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_cloth_brown_leather with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_cloth_brown_leather with mipmaps
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-16972 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-16972 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-17028 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-17028 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-17234 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-17234 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-17251 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-17251 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-17386 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-17386 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpScaleInterval-17421 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpScaleInterval-17421 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-17420 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-17420 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-17548 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-17548 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-17674 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-17674 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpScaleInterval-17683 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpScaleInterval-17683 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-17682 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-17682 in state final.
+:display:gsg:glgsg: reloading texture clouds_heavy with mipmaps
+:display:gsg:glgsg: reloading texture clouds_heavy with mipmaps
+:display:gsg:glgsg: reloading texture clouds_heavy with mipmaps
+:display:gsg:glgsg: reloading texture clouds_heavy with mipmaps
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-17877 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-17877 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-17959 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-17959 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-17968 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-17968 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-17856 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-17856 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-18231 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-18231 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-18284 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-18284 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-18291 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-18291 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-18340 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-18340 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-18347 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-18347 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-18511 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-18511 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-18522 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-18522 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-18579 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-18579 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-18587 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-18587 in state final.
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-18597 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-18597 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-18896 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-18896 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-18978 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-18978 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-18985 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-18985 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-19018 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-19018 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-19223 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-19223 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-19231 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-19231 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-19239 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-19239 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-19249 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-19249 in state final.
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-19526 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-19526 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-19533 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-19533 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-19541 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-19541 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-19582 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-19582 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-19859 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-19859 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-19906 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-19906 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-19913 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-19913 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-20056 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-20056 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-20222 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-20222 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-20229 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-20229 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-20277 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-20277 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-20286 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-20286 in state final.
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-20551 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-20551 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-20558 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-20558 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-20608 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-20608 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-20762 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-20762 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-20859 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-20859 in state final.
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-20725 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-20725 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-20920 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-20920 in state final.
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-21121 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-21121 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-21171 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-21171 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-21402 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-21402 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-21469 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-21469 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-21325 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-21325 in state final.
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture effectRedShockwave with mipmaps
+:display:gsg:glgsg: reloading texture effectFlashRays with mipmaps
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-26664 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-26664 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-26804 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-26804 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-26817 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-26817 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-26869 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-26869 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-26877 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-26877 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-27090 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-27090 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-27098 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-27098 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-27233 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-27233 in state final.
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I

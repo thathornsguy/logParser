@@ -1,0 +1,225 @@
+Sun Feb 05 08:00:16 2017: TLOPO_GAMESERVER = gs-3.piratesonline.co
+Sun Feb 05 08:00:16 2017: TLOPO_PLAYCOOKIE = 87f2c44f91fc4f2b92529a892095de1d
+Sun Feb 05 08:00:16 2017: PLocalizer: Running in language: English
+Sun Feb 05 08:00:16 2017: PiratesStart: Starting the game.
+Sun Feb 05 08:00:23 2017: :PiratesStart: getDriverVendor NVIDIA Corporation
+Sun Feb 05 08:00:23 2017: :PiratesStart: getDriverRenderer GeForce GTX 1060 3GB/PCIe/SSE2
+Sun Feb 05 08:00:23 2017: :PiratesStart: getDriverVersion 4.5.0 NVIDIA 375.86
+Sun Feb 05 08:00:23 2017: serverVersion:  tlopo-beta-v1.3.7
+Sun Feb 05 08:00:24 2017: Initializing quest ladders...
+Sun Feb 05 08:01:20 2017: Cannot configure initialisation option "scale" for DirectFrame
+Sun Feb 05 08:01:22 2017: setActiveQuest: c3r1.1sinkNavyShips
+Sun Feb 05 08:04:38 2017: Traceback (most recent call last):
+Sun Feb 05 08:04:38 2017:   File "direct.showbase.EventManager", line 46, in eventLoopTask
+Sun Feb 05 08:04:38 2017:   File "direct.showbase.EventManager", line 40, in doEvents
+Sun Feb 05 08:04:38 2017:   File "direct.showbase.EventManager", line 99, in processEvent
+Sun Feb 05 08:04:38 2017:   File "direct.showbase.Messenger", line 326, in send
+Sun Feb 05 08:04:38 2017:   File "direct.showbase.Messenger", line 411, in __dispatch
+Sun Feb 05 08:04:38 2017:   File "pirates.interact.InteractiveBase", line 437, in handleUseKey
+Sun Feb 05 08:04:38 2017:   File "pirates.world.DistributedDinghy", line 109, in requestInteraction
+Sun Feb 05 08:04:38 2017:   File "pirates.world.DistributedDinghy", line 200, in enterUse
+Sun Feb 05 08:04:38 2017:   File "pirates.world.DistributedDinghy", line 230, in offerOwnOptions
+Sun Feb 05 08:04:38 2017:   File "pirates.piratesgui.ShipDeployPanel", line 97, in addOwnShip
+Sun Feb 05 08:04:38 2017:   File "pirates.piratesgui.ShipFrameDeploy", line 94, in enableStatsOV
+Sun Feb 05 08:04:38 2017: AttributeError: 'DistributedPlayerSimpleShip' object has no attribute 'state'
+Sun Feb 05 08:04:38 2017: :TaskManager: TaskManager.destroy()
+anging type for ConfigVariable want-shaders from int to bool.
+:prc(warning): changing type for ConfigVariable want-water-reflection from int to bool.
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BriosoPro_bold_outline.bam
+:display: Created output of type ParasiteBuffer
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BardiT_outline.bam
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:windisplay: begin QueryPerformanceFrequency
+:display:windisplay: QueryPerformanceFrequency: 14318180
+:display:windisplay: CPU frequency: 3917811352
+:display:windisplay: start CPU ID
+:display:windisplay: end CPU ID
+:display:windisplay: 3 CPU cores, with 6 logical processors.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture inventory_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture inventory_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture inventory_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture treasure_chest_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_chest_color_skullcrossbones with mipmaps
+:display:gsg:glgsg: reloading texture chicken with mipmaps
+:display:gsg:glgsg: reloading texture alligator_undead with mipmaps
+:display:gsg:glgsg: reloading texture pirate_female_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pirate_female_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pirate_female_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pirate_female_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pirate_female_palette_3cmla_1 with mipmaps
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture world_map_base with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:loader(error): Couldn't load file models/char/js_run_with_weapon.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:loader(error): Couldn't load file models/char/js_strafe_left.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:loader(error): Couldn't load file models/char/js_walk.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:loader(error): Couldn't load file models/char/js_emote_scared.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:loader(error): Couldn't load file models/char/js_walk_camera.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:loader(error): Couldn't load file models/char/js_emote_bow.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:loader(error): Couldn't load file models/char/js_tv_bow.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:loader(error): Couldn't load file models/char/js_run_diagonal_left.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:loader(error): Couldn't load file models/char/js_turn_left.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:loader(error): Couldn't load file models/char/js_idleToBow.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:loader(error): Couldn't load file models/char/js_handsOnHips.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:loader(error): Couldn't load file models/char/js_run.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:loader(error): Couldn't load file models/char/js_walk_back_diagonal_left.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:loader(error): Couldn't load file models/char/js_run_diagonal_right.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:loader(error): Couldn't load file models/char/js_turn_right.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:loader(error): Couldn't load file models/char/js_marketing_fight_jr.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:loader(error): Couldn't load file models/char/js_walk_back_diagonal_right.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:loader(error): Couldn't load file models/char/js_emote_hands_on_hips.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:loader(error): Couldn't load file models/char/js_strafe_right.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:display:gsg:glgsg: reloading texture card_back with mipmaps
+:display:gsg:glgsg: reloading texture JD_Alpha_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Head_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Body_rev with mipmaps
+:display:gsg:glgsg: reloading texture card_back with mipmaps
+:display:gsg:glgsg: reloading texture JD_Alpha_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Head_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Body_rev with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_medium_boots_buckle with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_closed_leathertop with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_shorts_1buttonflap with mipmaps
+:display:gsg:glgsg: reloading texture card_back with mipmaps
+:display:gsg:glgsg: reloading texture JD_Alpha_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Head_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Body_rev with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_medium_boots_buckle with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_closed_leathertop with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_shorts_1buttonflap with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_closed_stripe with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_medium_boots_laced with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_untucked_celticbuttons with mipmaps
+:display:gsg:glgsg: reloading texture card_back with mipmaps
+:display:gsg:glgsg: reloading texture JD_Alpha_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Head_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Body_rev with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_medium_boots_buckle with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_closed_leathertop with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_shorts_1buttonflap with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_closed_stripe with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_medium_boots_laced with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_untucked_celticbuttons with mipmaps
+:display:gsg:glgsg: reloading texture FP_navy_hat with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_tall_collar_buttons with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_tall_collar_buttons with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_tall_collar_buttons with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_feather with mipmaps
+:display:gsg:glgsg: reloading texture card_back with mipmaps
+:display:gsg:glgsg: reloading texture JD_Alpha_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Head_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Body_rev with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_medium_boots_buckle with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_closed_leathertop with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_shorts_1buttonflap with mipmaps
+:display:gsg:glgsg: reloading texture cast_jg_body with mipmaps
+:display:gsg:glgsg: reloading texture cast_jg_head with mipmaps
+:display:gsg:glgsg: reloading texture cast_jg_alpha with mipmaps
+:display:gsg:glgsg: reloading texture card_back with mipmaps
+:display:gsg:glgsg: reloading texture JD_Alpha_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Head_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Body_rev with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_medium_boots_buckle with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_closed_leathertop with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_shorts_1buttonflap with mipmaps
+:display:gsg:glgsg: reloading texture cast_jg_body with mipmaps
+:display:gsg:glgsg: reloading texture cast_jg_head with mipmaps
+:display:gsg:glgsg: reloading texture cast_jg_alpha with mipmaps
+:display:gsg:glgsg: reloading texture card_back with mipmaps
+:display:gsg:glgsg: reloading texture JD_Alpha_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Head_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Body_rev with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_medium_boots_buckle with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_closed_leathertop with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_shorts_1buttonflap with mipmaps
+:display:gsg:glgsg: reloading texture cast_jg_body with mipmaps
+:display:gsg:glgsg: reloading texture cast_jg_head with mipmaps
+:display:gsg:glgsg: reloading texture cast_jg_alpha with mipmaps
+:display:gsg:glgsg: reloading texture card_back with mipmaps
+:display:gsg:glgsg: reloading texture JD_Alpha_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Head_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Body_rev with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_medium_boots_buckle with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_closed_leathertop with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_shorts_1buttonflap with mipmaps
+:display:gsg:glgsg: reloading texture cast_jg_body with mipmaps
+:display:gsg:glgsg: reloading texture cast_jg_head with mipmaps
+:display:gsg:glgsg: reloading texture cast_jg_alpha with mipmaps
+:display:gsg:glgsg: reloading texture card_back with mipmaps
+:display:gsg:glgsg: reloading texture JD_Alpha_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Head_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Body_rev with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_apron with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_apron with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_apron with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_medium_boots_buckle with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_closed_leathertop with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_shorts_1buttonflap with mipmaps
+:display:gsg:glgsg: reloading texture cast_jg_body with mipmaps
+:display:gsg:glgsg: reloading texture cast_jg_head with mipmaps
+:display:gsg:glgsg: reloading texture cast_jg_alpha with mipmaps
+:display:gsg:glgsg: reloading texture card_back with mipmaps
+:display:gsg:glgsg: reloading texture JD_Alpha_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Head_rev with mipmaps
+:display:gsg:glgsg: reloading texture JD_Body_rev with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_apron with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_apron with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_apron with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_closed_silk_stripe_lapel with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_medium_boots_buckle with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_closed_leathertop with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_metal_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_shorts_1buttonflap with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture particleVolcanoSmoke with mipmaps
+:display:gsg:glgsg: reloading texture particleSmoke with mipmaps
+:display:gsg:glgsg: reloading texture particleSmoke with mipmaps
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture prop_aztec_coin with mipmaps
+:display:gsg:glgsg: reloading texture feather with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_untucked_leatherpocket_trim with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_buckle_square_sculpture_blackbutton with mipmaps
+:display:gsg:glgsg: reloading texture PM_coat_long_brown with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_strap_square_sculpture_blackbutton with mipmaps
+:display:gsg:glgsg: reloading texture props_shop_bsmith_palette_3cmla_1 with mipmaps
+:task(error): Exception occurred in PythonTask eventManager

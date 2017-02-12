@@ -1,0 +1,17 @@
+Thu Feb 09 15:02:34 2017: TLOPO_GAMESERVER = gs-3.piratesonline.co
+Thu Feb 09 15:02:34 2017: TLOPO_PLAYCOOKIE = ebc99bf817f6aca050ef1ba426d55173
+Thu Feb 09 15:02:34 2017: PLocalizer: Running in language: English
+Thu Feb 09 15:02:34 2017: PiratesStart: Starting the game.
+:audio: Using default OpenAL device
+Known pipe types:
+  wglGraphicsPipe
+  TinyWinGraphicsPipe
+  TinyOffscreenGraphicsPipe
+(all display modules loaded.)
+:display:windisplay: OS version: 6.2.2.9200
+:display:windisplay:   
+:display:windisplay: max Mhz 3900000000, current Mhz 3900000000
+:display: Created output of type wglGraphicsWindow
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BriosoPro_chipped_outline.bam
+:prc(warning): changing type for ConfigVariable compressed-textures from bool to int.

@@ -1,0 +1,22 @@
+Sat Feb 11 13:08:55 2017: TLOPO_GAMESERVER = gs-1.piratesonline.co
+Sat Feb 11 13:08:55 2017: TLOPO_PLAYCOOKIE = b09aad52e83ca8dc15d27bee43009158
+Sat Feb 11 13:08:55 2017: PLocalizer: Running in language: English
+Sat Feb 11 13:08:55 2017: PiratesStart: Starting the game.
+Sat Feb 11 13:08:59 2017: :PiratesStart: getDriverVendor NVIDIA Corporation
+Sat Feb 11 13:08:59 2017: :PiratesStart: getDriverRenderer GeForce GTX 1060 3GB/PCIe/SSE2
+Sat Feb 11 13:08:59 2017: :PiratesStart: getDriverVersion 4.5.0 NVIDIA 376.53
+Sat Feb 11 13:08:59 2017: serverVersion:  tlopo-beta-v1.3.8
+Sat Feb 11 13:09:00 2017: Initializing quest ladders...
+Sat Feb 11 13:09:06 2017: :TaskManager: TaskManager.destroy()
+empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BriosoPro_chipped_outline.bam
+:prc(warning): changing type for ConfigVariable compressed-textures from bool to int.
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BardiT.bam
+:display: Created output of type ParasiteBuffer
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BriosoPro_chipped.bam
+:text(warning): Creating default TextProperties for name 'purple'
+:text(warning): Creating default TextProperties for name 'orange'
+:text(warning): Creating default TextProperties for name 'maroon'
+:text(warning): Creating default TextProperties for name 'lightGold'
+:display: Closing wglGraphicsWindow
+:downloader: [1F63C014] begin CONNECT [ s://gs-1.piratesonline.co:7969 ]

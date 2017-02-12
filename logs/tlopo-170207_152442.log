@@ -1,0 +1,165 @@
+Tue Feb 07 15:24:42 2017: TLOPO_GAMESERVER = gs-3.piratesonline.co
+Tue Feb 07 15:24:42 2017: TLOPO_PLAYCOOKIE = ded557f9dae752456625f611ce05f246
+Tue Feb 07 15:24:42 2017: PLocalizer: Running in language: English
+Tue Feb 07 15:24:42 2017: PiratesStart: Starting the game.
+Tue Feb 07 15:24:46 2017: :PiratesStart: getDriverVendor NVIDIA Corporation
+Tue Feb 07 15:24:46 2017: :PiratesStart: getDriverRenderer GeForce GTX 1060 3GB/PCIe/SSE2
+Tue Feb 07 15:24:46 2017: :PiratesStart: getDriverVersion 4.5.0 NVIDIA 375.86
+Tue Feb 07 15:24:46 2017: serverVersion:  tlopo-beta-v1.3.7
+Tue Feb 07 15:24:47 2017: Initializing quest ladders...
+Tue Feb 07 15:25:33 2017: Cannot configure initialisation option "scale" for DirectFrame
+Tue Feb 07 15:25:35 2017: setActiveQuest: dd1.recoveriron
+Tue Feb 07 15:29:18 2017: MotionTrail task removed
+Tue Feb 07 15:29:22 2017: :TaskManager: TaskManager.destroy()
+ing type for ConfigVariable compressed-textures from bool to int.
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BardiT.bam
+:display: Created output of type ParasiteBuffer
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BriosoPro_chipped.bam
+:text(warning): Creating default TextProperties for name 'purple'
+:text(warning): Creating default TextProperties for name 'orange'
+:text(warning): Creating default TextProperties for name 'maroon'
+:text(warning): Creating default TextProperties for name 'lightGold'
+:downloader: [170B8254] begin CONNECT [ s://gs-3.piratesonline.co:7969 ]
+:display: Created output of type ParasiteBuffer
+:downloader: [170B8254] Could not establish SSL handshake with gs-3.piratesonline.co:7969
+:downloader: [170B8254] begin CONNECT [ s://gs-3.piratesonline.co:7969 ]
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:downloader: Server certificate is pre-approved.
+:downloader: [170B8254] Self-signed certificate from gs-3.piratesonline.co:7969
+:prc(warning): changing type for ConfigVariable want-avatar-shadows from int to bool.
+:prc(warning): changing type for ConfigVariable want-shaders from int to bool.
+:prc(warning): changing type for ConfigVariable want-water-reflection from int to bool.
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BriosoPro_bold_outline.bam
+:display: Created output of type ParasiteBuffer
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BardiT_outline.bam
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:windisplay: begin QueryPerformanceFrequency
+:display:windisplay: QueryPerformanceFrequency: 14318180
+:display:windisplay: CPU frequency: 3917810254
+:display:windisplay: start CPU ID
+:display:windisplay: end CPU ID
+:display:windisplay: 3 CPU cores, with 6 logical processors.
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture particleSplash with mipmaps
+:display:gsg:glgsg: reloading texture particleSplash with mipmaps
+:display:gsg:glgsg: reloading texture water_ripple with mipmaps
+:display:gsg:glgsg: reloading texture water_ripple with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture particleSmoke with mipmaps
+:display:gsg:glgsg: reloading texture particleSmoke with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture particleRockShower with mipmaps
+:display:gsg:glgsg: reloading texture ship_arms_props_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture ship_arms_props_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture particleSpark with mipmaps
+:display:gsg:glgsg: reloading texture effects2_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture effects2_palette_3cmla_1 with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture ship_arms_props_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture swoosh with mipmaps
+:display:gsg:glgsg: reloading texture swoosh with mipmaps
+:display:gsg:glgsg: reloading texture ship_arms_props_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture swoosh with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-613 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-613 in state final.
+:display:gsg:glgsg: reloading texture water_ripple3 with mipmaps
+:display:gsg:glgsg: reloading texture water_ripple3 with mipmaps
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-650 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-650 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-898 in state started.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-898 in state final.
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I

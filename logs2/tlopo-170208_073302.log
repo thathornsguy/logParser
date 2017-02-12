@@ -1,0 +1,157 @@
+Wed Feb 08 07:33:02 2017: TLOPO_GAMESERVER = gs-3.piratesonline.co
+Wed Feb 08 07:33:02 2017: TLOPO_PLAYCOOKIE = 671c9cdc63b509168207594989095398
+Wed Feb 08 07:33:02 2017: PLocalizer: Running in language: English
+Wed Feb 08 07:33:02 2017: PiratesStart: Starting the game.
+Wed Feb 08 07:33:07 2017: :PiratesStart: getDriverVendor NVIDIA Corporation
+Wed Feb 08 07:33:07 2017: :PiratesStart: getDriverRenderer GeForce GTX 1060 3GB/PCIe/SSE2
+Wed Feb 08 07:33:07 2017: :PiratesStart: getDriverVersion 4.5.0 NVIDIA 375.86
+Wed Feb 08 07:33:07 2017: serverVersion:  tlopo-beta-v1.3.7
+Wed Feb 08 07:33:08 2017: Initializing quest ladders...
+Wed Feb 08 07:33:47 2017: Cannot configure initialisation option "scale" for DirectFrame
+Wed Feb 08 07:33:49 2017: setActiveQuest: spanish.ShipPVPBreadCrumb
+ro_chipped_outline.bam
+:prc(warning): changing type for ConfigVariable compressed-textures from bool to int.
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BardiT.bam
+:display: Created output of type ParasiteBuffer
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BriosoPro_chipped.bam
+:text(warning): Creating default TextProperties for name 'purple'
+:text(warning): Creating default TextProperties for name 'orange'
+:text(warning): Creating default TextProperties for name 'maroon'
+:text(warning): Creating default TextProperties for name 'lightGold'
+:downloader: [15EC0FBC] begin CONNECT [ s://gs-3.piratesonline.co:7969 ]
+:display: Created output of type ParasiteBuffer
+:downloader: [15EC0FBC] Could not establish SSL handshake with gs-3.piratesonline.co:7969
+:downloader: [15EC0FBC] begin CONNECT [ s://gs-3.piratesonline.co:7969 ]
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:downloader: Server certificate is pre-approved.
+:downloader: [15EC0FBC] Self-signed certificate from gs-3.piratesonline.co:7969
+:prc(warning): changing type for ConfigVariable want-avatar-shadows from int to bool.
+:prc(warning): changing type for ConfigVariable want-shaders from int to bool.
+:prc(warning): changing type for ConfigVariable want-water-reflection from int to bool.
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BriosoPro_bold_outline.bam
+:display: Created output of type ParasiteBuffer
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BardiT_outline.bam
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:windisplay: begin QueryPerformanceFrequency
+:display:windisplay: QueryPerformanceFrequency: 14318180
+:display:windisplay: CPU frequency: 3917808917
+:display:windisplay: start CPU ID
+:display:windisplay: end CPU ID
+:display:windisplay: 3 CPU cores, with 6 logical processors.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture pupilDarkBrown with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_gun_musket_a with mipmaps
+:display:gsg:glgsg: reloading texture treasure_chest_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture prop_aztec_coin with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture pir_t_hnd_knf_dirk_a with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:loader(error): Couldn't load file models/char/td_show_voodoo_doll.bam: not found on model path (currently: "resources;resources/phase_6;resources/phase_5;resources/phase_4;resources/phase_3;resources/phase_2;resources;resources/phase_2;resources/phase_3;resources/phase_4;resources/phase_5")
+:display:gsg:glgsg: reloading texture alligator_undead with mipmaps
+:display:gsg:glgsg: reloading texture alligator_undead with mipmaps
+:display:gsg:glgsg: reloading texture alligator_undead with mipmaps
+:display:gsg:glgsg: reloading texture alligator_undead with mipmaps
+:display:gsg:glgsg: reloading texture particleSplash with mipmaps
+:display:gsg:glgsg: reloading texture water_ripple with mipmaps
+:display:gsg:glgsg: reloading texture bat_undead with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture particleSparkle with mipmaps
+:display:gsg:glgsg: reloading texture particleSparkle with mipmaps
+:display:gsg:glgsg: reloading texture particleGunSmoke with mipmaps
+:display:gsg:glgsg: reloading texture particleGunSmoke with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_dol_mojo_a with mipmaps
+:display:gsg:glgsg: reloading texture effectVoodooShockwave with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_swd_broadsword_b with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_swd_broadsword_b with mipmaps
+:display:gsg:glgsg: reloading texture particleSparkles with mipmaps
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture swordtrail_lines with mipmaps
+:display:gsg:glgsg: reloading texture effectHitSplatA with mipmaps
+:display:gsg:glgsg: reloading texture particleGlow with mipmaps
+:display:gsg:glgsg: reloading texture effectHitSplatA with mipmaps
+:display:gsg:glgsg: reloading texture particleGlow with mipmaps
+:display:gsg:glgsg: reloading texture effectHitSplatA with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_knf_dagger_a with mipmaps
+:display:gsg:glgsg: reloading texture effectRedShockwave with mipmaps
+:display:gsg:glgsg: reloading texture effectFlashRays with mipmaps
+:display:gsg:glgsg: reloading texture weapons_palette_2tmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture effectShockwave1 with mipmaps
+:display:gsg:glgsg: reloading texture particleSmoke with mipmaps
+:display:gsg:glgsg: reloading texture weapons_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture Jolly_skull with mipmaps
+:display: Created output of type ParasiteBuffer
+:linmath(warning): Tried to invert singular LMatrix3.
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture world_map_base with mipmaps
+:display:gsg:glgsg: reloading texture particleVolcanoSmoke with mipmaps
+:display:gsg:glgsg: reloading texture particleVolcanoSmoke with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0

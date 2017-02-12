@@ -1,10 +1,24 @@
 from Tkinter import *
+import datastorage
+import os
+import tkFileDialog
 
+def getDirectory():
+    logDirectory = ""
+    logDirectory = tkFileDialog.askdirectory()
+    if logDirectory != "":
+        os.remove("cfg")
+        configFile = open(".\cfg", "w")
+        configFile.write(logDirectory)
+        configFile.close()
+        return logDirectory
+    else:
+        return None
 
 class bootWindow:
     def __init__(self,allEntries):
         # index of the currently selected log
-        self.logIndex = -1
+        self.logIndex = 0
         # the logManager object associated with the found log files
         self.allEntries = allEntries
         # the number representing the current tab
@@ -79,7 +93,9 @@ class bootWindow:
         mainFrame.pack(side = "top")
         # create the menu for the window
         m = Menu(self.root)
-        m.add_command(label="File")
+        fileMenu = Menu(m,tearoff=0)
+        fileMenu.add_command(label="Change Directory...",command=self.changeDirectory)
+        m.add_cascade(label="File",menu = fileMenu)
         # add the menu to the main window
         self.root.config(menu=m)
         # add all the log files found in the specified directory to the listbox
@@ -90,6 +106,21 @@ class bootWindow:
         self.root.protocol('WM_DELETE_WINDOW',exit)
         # causes the window to open
         self.root.mainloop()
+
+    def changeDirectory(self):
+        returnCode = self.allEntries.update()
+        if returnCode == 1:
+            return
+        self.summaryButton.config(bg="#d3d3d3")
+        self.launchInfoButton.config(bg="#d3d3d3")
+        self.contentsButton.config(bg="#d3d3d3")
+        self.logStatsButton.config(bg="#d3d3d3")
+        self.globalStatsButton.config(bg="#d3d3d3")
+        self.detailText.config(state=NORMAL)
+        self.detailText.delete("1.0", END)
+        self.detailText.config(state=DISABLED)
+        self.logListBox.delete(0, END)
+        self.addToLogFileList(self.allEntries)
 
     # when a log is selected from the listbox update the textbox to the contents of the associated log
     def updateTextBox(self,evt):
@@ -168,6 +199,8 @@ class bootWindow:
     def addToLogFileList(self,list):
         for log in list.logList:
             self.logListBox.insert(END,log.date+" "+log.time)
+        self.logListBox.selection_set(0)
+        self.updateTextBox(None)
 
     def summaryButtonCommand(self):
         if self.logIndex != -1:

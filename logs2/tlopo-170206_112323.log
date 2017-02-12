@@ -1,0 +1,64 @@
+Mon Feb 06 11:23:23 2017: TLOPO_GAMESERVER = gs-3.piratesonline.co
+Mon Feb 06 11:23:23 2017: TLOPO_PLAYCOOKIE = 35150c154456c875b01ce08c6669f8a9
+Mon Feb 06 11:23:23 2017: PLocalizer: Running in language: English
+Mon Feb 06 11:23:23 2017: PiratesStart: Starting the game.
+Mon Feb 06 11:23:27 2017: :PiratesStart: getDriverVendor NVIDIA Corporation
+Mon Feb 06 11:23:27 2017: :PiratesStart: getDriverRenderer GeForce GTX 1060 3GB/PCIe/SSE2
+Mon Feb 06 11:23:27 2017: :PiratesStart: getDriverVersion 4.5.0 NVIDIA 375.86
+Mon Feb 06 11:23:27 2017: serverVersion:  tlopo-beta-v1.3.7
+Mon Feb 06 11:23:28 2017: Initializing quest ladders...
+Mon Feb 06 11:25:33 2017: Cannot configure initialisation option "scale" for DirectFrame
+Mon Feb 06 11:25:34 2017: setActiveQuest: wdr2.1needMaterials
+Mon Feb 06 11:27:32 2017: Cannot configure initialisation option "scale" for DirectFrame
+Mon Feb 06 11:27:33 2017: setActiveQuest: wdr2.1needMaterials
+Mon Feb 06 11:27:34 2017: Traceback (most recent call last):
+Mon Feb 06 11:27:34 2017:   File "direct.distributed.ConnectionRepository", line 609, in readerPollUntilEmpty
+Mon Feb 06 11:27:34 2017:   File "direct.distributed.ConnectionRepository", line 616, in readerPollOnce
+Mon Feb 06 11:27:34 2017:   File "otp.distributed.OTPClientRepository", line 1606, in handleDatagram
+Mon Feb 06 11:27:34 2017:   File "otp.distributed.OTPClientRepository", line 1493, in handleMessageType
+Mon Feb 06 11:27:34 2017:   File "pirates.distributed.PiratesClientRepository", line 504, in handleGenerateWithRequiredOtherOwner
+Mon Feb 06 11:27:34 2017:   File "pirates.distributed.PiratesClientRepository", line 529, in handleAvatarResponseMsg
+Mon Feb 06 11:27:34 2017:   File "direct.distributed.DistributedObject", line 345, in updateAllRequiredFields
+Mon Feb 06 11:27:34 2017:   File "pirates.pirate.LocalPirate", line 982, in announceGenerate
+Mon Feb 06 11:27:34 2017:   File "pirates.piratesgui.GuiManager", line 1163, in initQuestPage
+Mon Feb 06 11:27:34 2017:   File "pirates.uberdog.DistributedInventoryBase", line 149, in getInventory
+Mon Feb 06 11:27:34 2017:   File "pirates.piratesgui.GuiManager", line 1144, in inventoryReceived
+Mon Feb 06 11:27:34 2017:   File "pirates.piratesgui.QuestPage", line 167, in updateQuestTitles
+Mon Feb 06 11:27:34 2017:   File "pirates.piratesgui.QuestTitleList", line 171, in update
+Mon Feb 06 11:27:34 2017:   File "pirates.piratesgui.QuestTitleList", line 338, in __makeButtons
+Mon Feb 06 11:27:34 2017:   File "pirates.piratesgui.QuestTitleList", line 279, in __getText
+Mon Feb 06 11:27:34 2017:   File "pirates.piratesbase.PythonUtil", line 1787, in defaultGetter
+Mon Feb 06 11:27:34 2017: AttributeError: DistributedQuestOV instance has no attribute 'tasks'
+Mon Feb 06 11:27:34 2017: :TaskManager: TaskManager.destroy()
+ay: QueryPerformanceFrequency: 14318180
+:display:windisplay: CPU frequency: 3917807269
+:display:windisplay: start CPU ID
+:display:windisplay: end CPU ID
+:display:windisplay: 3 CPU cores, with 6 logical processors.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture water_ripple with mipmaps
+:display:gsg:glgsg: reloading texture water_ripple with mipmaps
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture particleSplash with mipmaps
+:display:gsg:glgsg: reloading texture particleSplash with mipmaps
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture world_map_base with mipmaps
+:display:gsg:glgsg: reloading texture particleVolcanoSmoke with mipmaps
+:display:gsg:glgsg: reloading texture particleVolcanoSmoke with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:task(error): Exception occurred in PythonTask readerPollTask-460160968

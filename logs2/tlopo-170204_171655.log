@@ -1,0 +1,172 @@
+Sat Feb 04 17:16:55 2017: TLOPO_GAMESERVER = gs-3.piratesonline.co
+Sat Feb 04 17:16:55 2017: TLOPO_PLAYCOOKIE = d69803fb93e0547f306fcc7e1a933b1c
+Sat Feb 04 17:16:55 2017: PLocalizer: Running in language: English
+Sat Feb 04 17:16:55 2017: PiratesStart: Starting the game.
+Sat Feb 04 17:17:02 2017: :PiratesStart: getDriverVendor NVIDIA Corporation
+Sat Feb 04 17:17:02 2017: :PiratesStart: getDriverRenderer GeForce GTX 1060 3GB/PCIe/SSE2
+Sat Feb 04 17:17:02 2017: :PiratesStart: getDriverVersion 4.5.0 NVIDIA 375.86
+Sat Feb 04 17:17:02 2017: serverVersion:  tlopo-beta-v1.3.7
+Sat Feb 04 17:17:04 2017: Initializing quest ladders...
+Sat Feb 04 17:18:05 2017: Cannot configure initialisation option "scale" for DirectFrame
+Sat Feb 04 17:18:07 2017: setActiveQuest: c2.11visitBarbossa
+Sat Feb 04 17:25:24 2017: warning: 1 motion trails still exist when motion trail task is removed
+Sat Feb 04 17:25:24 2017: MotionTrail task removed
+Sat Feb 04 17:25:24 2017: :TaskManager: TaskManager.destroy()
+
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BardiT.bam
+:display: Created output of type ParasiteBuffer
+:text(warning): Creating default TextProperties for name 'purple'
+:text(warning): Creating default TextProperties for name 'orange'
+:text(warning): Creating default TextProperties for name 'maroon'
+:text(warning): Creating default TextProperties for name 'lightGold'
+:downloader: [1F8648B4] begin CONNECT [ s://gs-3.piratesonline.co:7969 ]
+:display: Created output of type ParasiteBuffer
+:downloader: [1F8648B4] Could not establish SSL handshake with gs-3.piratesonline.co:7969
+:downloader: [1F2BB71C] begin CONNECT [ s://gs-3.piratesonline.co:7969 ]
+:downloader: Server certificate is pre-approved.
+:downloader: [1F2BB71C] Self-signed certificate from gs-3.piratesonline.co:7969
+:prc(warning): changing type for ConfigVariable want-avatar-shadows from int to bool.
+:prc(warning): changing type for ConfigVariable want-shaders from int to bool.
+:prc(warning): changing type for ConfigVariable want-water-reflection from int to bool.
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BriosoPro_bold_outline.bam
+:display: Created output of type ParasiteBuffer
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BardiT_outline.bam
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:windisplay: begin QueryPerformanceFrequency
+:display:windisplay: QueryPerformanceFrequency: 14318180
+:display:windisplay: CPU frequency: 3917809115
+:display:windisplay: start CPU ID
+:display:windisplay: end CPU ID
+:display:windisplay: 3 CPU cores, with 6 logical processors.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture tattoo_chest_color_hawaiian_pectoral with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_arm_mono_petroglyph with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_chest_color_hawaiian_pectoral with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_arm_mono_petroglyph with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_chest_color_hawaiian_pectoral with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_arm_mono_petroglyph with mipmaps
+:display:gsg:glgsg: reloading texture prop_aztec_coin with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_chest_color_hawaiian_pectoral with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_arm_mono_petroglyph with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_gun_musket_a with mipmaps
+:display:gsg:glgsg: reloading texture treasure_chest_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_knf_dagger_c with mipmaps
+:display:gsg:glgsg: reloading texture effectHitSplatA with mipmaps
+:display:gsg:glgsg: reloading texture particleGlow with mipmaps
+:display:gsg:glgsg: reloading texture effectHitSplatA with mipmaps
+:display:gsg:glgsg: reloading texture swordtrail_lines with mipmaps
+:display:gsg:glgsg: reloading texture pirate_female_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_knf_dirk_a with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture weapons_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture weapons_palette_2tmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_swd_cutlass_a with mipmaps
+:display:gsg:glgsg: reloading texture weapons_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture weapons_palette_2tmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture particleVolcanoSmoke with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_trs_bag with mipmaps
+:display:gsg:glgsg: reloading texture particleSpark with mipmaps
+:display:gsg:glgsg: reloading texture particleSpark with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture pupilLightBrown with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_tanktop_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_strap_square_sculpture_blackbutton with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_tanktop_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_tanktop_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_buckle_square_sculpture_blackbutton with mipmaps
+:display:gsg:glgsg: reloading texture PM_coat_long_french with mipmaps
+:display:gsg:glgsg: reloading texture hat_tricorn_black_skull with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_dol_spirit_b with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_arm_mono_tribal_jellyfish_02 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_stf_dark_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_tall_boots_violet_stitches with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_shorts_purplegold with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_stf_dark_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_tall_boots_violet_stitches with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_shorts_purplegold with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_stf_dark_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_tall_boots_violet_stitches with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_shorts_purplegold with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_stf_dark_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_tall_boots_violet_stitches with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_shorts_purplegold with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_stf_dark_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_tall_boots_violet_stitches with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_shorts_purplegold with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_stf_dark_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_tall_boots_violet_stitches with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_shorts_purplegold with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_stf_dark_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_tall_boots_violet_stitches with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_shorts_purplegold with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_stf_dark_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_tall_boots_violet_stitches with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_shorts_purplegold with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_stf_dark_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_tall_boots_violet_stitches with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_shorts_purplegold with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_stf_dark_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_tall_boots_violet_stitches with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_shorts_purplegold with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_newyearseve with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture particleDarkSmoke with mipmaps
+:display:gsg:glgsg: reloading texture particleDarkSmoke with mipmaps
+:display:gsg:glgsg: reloading texture effectVoodooShockwave with mipmaps
+:display:gsg:glgsg: reloading texture effectVoodooShockwave with mipmaps

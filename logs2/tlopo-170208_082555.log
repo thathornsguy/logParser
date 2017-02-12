@@ -1,0 +1,621 @@
+Wed Feb 08 08:25:55 2017: TLOPO_GAMESERVER = gs-3.piratesonline.co
+Wed Feb 08 08:25:55 2017: TLOPO_PLAYCOOKIE = 9aa2ab2e45a6bfc04e2738cb0c4c289c
+Wed Feb 08 08:25:55 2017: PLocalizer: Running in language: English
+Wed Feb 08 08:25:55 2017: PiratesStart: Starting the game.
+Wed Feb 08 08:25:59 2017: :PiratesStart: getDriverVendor NVIDIA Corporation
+Wed Feb 08 08:25:59 2017: :PiratesStart: getDriverRenderer GeForce GTX 1060 3GB/PCIe/SSE2
+Wed Feb 08 08:25:59 2017: :PiratesStart: getDriverVersion 4.5.0 NVIDIA 375.86
+Wed Feb 08 08:25:59 2017: serverVersion:  tlopo-beta-v1.3.7
+Wed Feb 08 08:26:00 2017: Initializing quest ladders...
+Wed Feb 08 08:26:40 2017: Cannot configure initialisation option "scale" for DirectFrame
+Wed Feb 08 08:26:42 2017: setActiveQuest: c3r2r2r8r8.1recoverJewelry
+Wed Feb 08 08:27:57 2017: setActiveQuest: c3r2r2r8r8.5deliverParrot
+Wed Feb 08 08:28:02 2017: presentQuestReset None
+Wed Feb 08 08:28:44 2017: setActiveQuest: c3r2r2.9deliverList
+Wed Feb 08 08:28:47 2017: presentQuestReset None
+Wed Feb 08 08:30:32 2017: setActiveQuest: c3r2r2r10r1.1visitWilliam
+Wed Feb 08 08:30:37 2017: presentQuestReset None
+Wed Feb 08 08:32:19 2017: setActiveQuest: c3r2r2r10r1.2sinkNavyShips
+Wed Feb 08 08:32:22 2017: presentQuestReset None
+Wed Feb 08 08:45:21 2017: setActiveQuest: c3r2r2r10r2.1visitDocGrog
+Wed Feb 08 08:45:23 2017: presentQuestReset None
+Wed Feb 08 08:47:14 2017: setActiveQuest: c3r2r2r10r2r2.1remedy
+Wed Feb 08 08:47:17 2017: presentQuestReset None
+69C] begin CONNECT [ s://gs-3.piratesonline.co:7969 ]
+:display: Created output of type ParasiteBuffer
+:downloader: [1DC6C69C] Could not establish SSL handshake with gs-3.piratesonline.co:7969
+:downloader: [1E9BB00C] begin CONNECT [ s://gs-3.piratesonline.co:7969 ]
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:downloader: Server certificate is pre-approved.
+:downloader: [1E9BB00C] Self-signed certificate from gs-3.piratesonline.co:7969
+:prc(warning): changing type for ConfigVariable want-avatar-shadows from int to bool.
+:prc(warning): changing type for ConfigVariable want-shaders from int to bool.
+:prc(warning): changing type for ConfigVariable want-water-reflection from int to bool.
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BriosoPro_bold_outline.bam
+:display: Created output of type ParasiteBuffer
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BardiT_outline.bam
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:windisplay: begin QueryPerformanceFrequency
+:display:windisplay: QueryPerformanceFrequency: 14318180
+:display:windisplay: CPU frequency: 3917806880
+:display:windisplay: start CPU ID
+:display:windisplay: end CPU ID
+:display:windisplay: 3 CPU cores, with 6 logical processors.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_stitches with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_medium_boots_black-topstitch with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_shorts_blue_stripes with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_stitches with mipmaps
+:display:gsg:glgsg: reloading texture FP_coat_long_advanced_outfit with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_sash_blue_belt with mipmaps
+:display:gsg:glgsg: reloading texture pirate_male_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_stitches with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_medium_boots_black-topstitch with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_shorts_blue_stripes with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_collar_stitches with mipmaps
+:display:gsg:glgsg: reloading texture FP_coat_long_advanced_outfit with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_sash_blue_belt with mipmaps
+:display:gsg:glgsg: reloading texture hat_gm_red_dkgreen_skullcrossbones with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_closed_advanced_outfit with mipmaps
+:display:gsg:glgsg: reloading texture PM_eitc with mipmaps
+:display:gsg:glgsg: reloading texture prop_aztec_coin with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_short_boots_celticpattern with mipmaps
+:display:gsg:glgsg: reloading texture FP_gypsy_dress_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_gypsy_dress_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_short_boots_celticpattern with mipmaps
+:display:gsg:glgsg: reloading texture FP_gypsy_dress_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_gypsy_dress_a with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_untucked_plain3 with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_sash_celticbuckle with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_medium_boots_laced with mipmaps
+:display:gsg:glgsg: reloading texture weapons_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture hand_held_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_swd_sabre_d with mipmaps
+:interval(warning): CInterval::priv_finalize() called for LerpScaleInterval-340 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpScaleInterval-340 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-339 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-339 in state final.
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_tucked_cotton_leathersidepocket with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_gun_musket_a with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture FP_vest_lowcut_clothtwobutton with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_smFrontLacing with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_smFrontLacing with mipmaps
+:display:gsg:glgsg: reloading texture FP_navy_hat with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_feather with mipmaps
+:interval(warning): CInterval::priv_finalize() called for LerpColorScaleInterval-498 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-498 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpScaleInterval-497 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpScaleInterval-497 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-496 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-496 in state final.
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture treasure_chest_palette_3cmla_1 with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture PM_shirt_tanktop_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_tanktop_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_tall_boots_advanced_outfit with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_strap_square_sculpture_blackbutton with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_buckle_square_sculpture_blackbutton with mipmaps
+:display:gsg:glgsg: reloading texture PM_coat_long_french with mipmaps
+:display:gsg:glgsg: reloading texture hat_tricorn_black_skull with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:interval(warning): CInterval::priv_finalize() called for LerpScaleInterval-916 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpScaleInterval-916 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-915 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-915 in state final.
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture PM_pant_shorts_3ties with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_medium_boots_lacefront with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_browncollar with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_browncollar with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_browncollar with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_open_green_blacklapel with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_sash_plain with mipmaps
+:display:gsg:glgsg: reloading texture hat_bandanna_full_blue_zigzag with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_shorts_3ties with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_medium_boots_lacefront with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_browncollar with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_browncollar with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_browncollar with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_open_green_blacklapel with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_sash_plain with mipmaps
+:display:gsg:glgsg: reloading texture hat_bandanna_full_blue_zigzag with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_shorts_3ties with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_medium_boots_lacefront with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_browncollar with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_browncollar with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_browncollar with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_open_green_blacklapel with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_sash_plain with mipmaps
+:display:gsg:glgsg: reloading texture hat_bandanna_full_blue_zigzag with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_strap_oval with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_buckle_oval with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_strap_oval with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_buckle_oval with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_strap_oval with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_buckle_oval with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_untucked_celticbuttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_closed_stripe with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_strap_oval with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_buckle_oval with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_untucked_celticbuttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_closed_stripe with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_3button with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_skirt_patchwork with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_knee_high_boots_brown with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_3button with mipmaps
+:display:gsg:glgsg: reloading texture FP_coat_short_crocodileskin with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_strap_oval with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_buckle_oval with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_strap_oval with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_buckle_oval with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_short_round_frontbuttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_short_round_frontbuttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_strap_oval with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_buckle_oval with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_short_round_frontbuttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_short_round_frontbuttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_untucked_celticbuttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_closed_stripe with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_strap_oval with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_buckle_oval with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_short_round_frontbuttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_short_round_frontbuttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_untucked_celticbuttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_closed_stripe with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_cloth_brown_leather with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_cloth_brown_leather with mipmaps
+:display:gsg:glgsg: reloading texture PM_coat_long_braidsandfloralpattern with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_cloth_brown_leather with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_untucked_celticbuttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_ClothWithTies with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_strap_oval with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_buckle_oval with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_short_round_frontbuttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_short_round_frontbuttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_cloth_brown_leather with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_cloth_brown_leather with mipmaps
+:display:gsg:glgsg: reloading texture PM_coat_long_braidsandfloralpattern with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_cloth_brown_leather with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_untucked_celticbuttons with mipmaps
+:interval(warning): CInterval::priv_finalize() called for LerpColorScaleInterval-1670 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-1670 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpScaleInterval-1669 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpScaleInterval-1669 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-1668 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-1668 in state final.
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture particleSplash with mipmaps
+:display:gsg:glgsg: reloading texture particleSplash with mipmaps
+:display:gsg:glgsg: reloading texture water_ripple with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture particleSmoke with mipmaps
+:display:gsg:glgsg: reloading texture particleSmoke with mipmaps
+:display:gsg:glgsg: reloading texture particleSpark with mipmaps
+:display:gsg:glgsg: reloading texture particleSpark with mipmaps
+:display:gsg:glgsg: reloading texture particleSpark with mipmaps
+:display:gsg:glgsg: reloading texture particleSpark with mipmaps
+:display:gsg:glgsg: reloading texture effects2_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture effects2_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture particleFire2 with mipmaps
+:display:gsg:glgsg: reloading texture particleFire2 with mipmaps
+:display:gsg:glgsg: reloading texture water_ripple3 with mipmaps
+:display:gsg:glgsg: reloading texture water_ripple3 with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-2289 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-2289 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture particleRockShower with mipmaps
+:display:gsg:glgsg: reloading texture particleRockShower with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-2671 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-2671 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-2929 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-2929 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-3095 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-3095 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-3199 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-3199 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-3364 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-3364 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:interval(warning): CLerpNodePathInterval::priv_initialize() called for LerpColorScaleInterval-3688 in state started.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-3688 in state final.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture particleVolcanoSmoke with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:interval(warning): CInterval::priv_finalize() called for LerpColorScaleInterval-4321 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-4321 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpScaleInterval-4320 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpScaleInterval-4320 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-4319 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-4319 in state final.
+:display: Created output of type ParasiteBuffer
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture world_map_base with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture chicken with mipmaps
+:display:gsg:glgsg: reloading texture alligator_undead with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture PM_coat_long_cloth_lighttrim with mipmaps
+:display:gsg:glgsg: reloading texture PM_coat_long_cloth_lighttrim with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_shorts_1buttonflap with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_nosleeves_ties with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_nosleeves_ties with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_nosleeves_ties with mipmaps
+:interval(warning): CInterval::priv_finalize() called for LerpColorScaleInterval-5077 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-5077 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpScaleInterval-5076 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpScaleInterval-5076 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-5075 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-5075 in state final.
+:display: Created output of type ParasiteBuffer
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture pir_t_hnd_knf_dagger_a with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_knf_dagger_a with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_knf_dirk_a with mipmaps
+:display:gsg:glgsg: reloading texture flytrap_undead with mipmaps
+:display:gsg:glgsg: reloading texture flytrap_undead with mipmaps
+:display:gsg:glgsg: reloading texture flytrap_undead with mipmaps
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture pir_t_hnd_swd_cutlass_e with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_advanced_outfit with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_advanced_outfit with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_advanced_outfit with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_short_boots_Xmas with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_sash_red_basic_outfit with mipmaps
+:display:gsg:glgsg: reloading texture hat_spanish_1_red with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_swd_cage_black with mipmaps
+:display:gsg:glgsg: reloading texture effectHitSplatA with mipmaps
+:display:gsg:glgsg: reloading texture particleGlow with mipmaps
+:display:gsg:glgsg: reloading texture swordtrail_lines with mipmaps
+:display:gsg:glgsg: reloading texture effectRedShockwave with mipmaps
+:display:gsg:glgsg: reloading texture effectFlashRays with mipmaps
+:display:gsg:glgsg: reloading texture weapons_palette_2tmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture Jolly_skull with mipmaps
+:display:gsg:glgsg: reloading texture effectShockwave1 with mipmaps
+:display: Created output of type ParasiteBuffer
+:linmath(warning): Tried to invert singular LMatrix3.
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture pir_t_hnd_dol_mojo_e with mipmaps
+:display:gsg:glgsg: reloading texture hat_tricorn_brown with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_dol_mojo_e with mipmaps
+:display:gsg:glgsg: reloading texture hat_tricorn_brown with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_dol_mojo_e with mipmaps
+:display:gsg:glgsg: reloading texture hat_tricorn_brown with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_dol_mojo_e with mipmaps
+:display:gsg:glgsg: reloading texture hat_tricorn_brown with mipmaps
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture particleSparkles with mipmaps
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture tattoo_face_color_jacksparrow with mipmaps
+:display:gsg:glgsg: reloading texture pirate_female_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pirate_female_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_swd_cutlass_a with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:audio(error): Cannot open file: audio/sfx_fire_loop.ogg
+:audio(error): Could not open audio audio/sfx_fire_loop.ogg
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture bat_undead with mipmaps
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture particleDot with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_trs_bag with mipmaps
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture clouds_heavy with mipmaps
+:display:gsg:glgsg: reloading texture clouds_heavy with mipmaps
+:display:gsg:glgsg: reloading texture clouds_heavy with mipmaps
+:display:gsg:glgsg: reloading texture clouds_heavy with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I

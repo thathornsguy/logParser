@@ -1,0 +1,31 @@
+Tue Feb 07 21:40:22 2017: TLOPO_GAMESERVER = gs-3.piratesonline.co
+Tue Feb 07 21:40:22 2017: TLOPO_PLAYCOOKIE = 66feb758eaa8c4a1236df4649cc4dba8
+Tue Feb 07 21:40:22 2017: PLocalizer: Running in language: English
+Tue Feb 07 21:40:22 2017: PiratesStart: Starting the game.
+Tue Feb 07 21:40:28 2017: :PiratesStart: getDriverVendor NVIDIA Corporation
+Tue Feb 07 21:40:28 2017: :PiratesStart: getDriverRenderer GeForce GTX 1060 3GB/PCIe/SSE2
+Tue Feb 07 21:40:28 2017: :PiratesStart: getDriverVersion 4.5.0 NVIDIA 375.86
+Tue Feb 07 21:40:28 2017: serverVersion:  tlopo-beta-v1.3.7
+Tue Feb 07 21:40:29 2017: Initializing quest ladders...
+Tue Feb 07 21:41:02 2017: Traceback (most recent call last):
+Tue Feb 07 21:41:02 2017:   File "direct.distributed.ConnectionRepository", line 609, in readerPollUntilEmpty
+Tue Feb 07 21:41:02 2017:   File "direct.distributed.ConnectionRepository", line 616, in readerPollOnce
+Tue Feb 07 21:41:02 2017:   File "otp.distributed.OTPClientRepository", line 1606, in handleDatagram
+Tue Feb 07 21:41:02 2017:   File "otp.distributed.OTPClientRepository", line 1491, in handleMessageType
+Tue Feb 07 21:41:02 2017:   File "otp.distributed.OTPClientRepository", line 1761, in handleGenerateWithRequiredOwner
+Tue Feb 07 21:41:02 2017:   File "otp.distributed.OTPClientRepository", line 1777, in generateWithRequiredOwner
+Tue Feb 07 21:41:02 2017:   File "pirates.quest.DistributedQuestOV", line 20, in __init__
+Tue Feb 07 21:41:02 2017:   File "pirates.quest.DistributedQuest", line 64, in __init__
+Tue Feb 07 21:41:02 2017: NameError: global name 'localAvatar' is not defined
+Tue Feb 07 21:41:02 2017: :TaskManager: TaskManager.destroy()
+s://gs-3.piratesonline.co:7969 ]
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:downloader: Server certificate is pre-approved.
+:downloader: [215A51B4] Self-signed certificate from gs-3.piratesonline.co:7969
+:prc(warning): changing type for ConfigVariable want-avatar-shadows from int to bool.
+:prc(warning): changing type for ConfigVariable want-shaders from int to bool.
+:prc(warning): changing type for ConfigVariable want-water-reflection from int to bool.
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BriosoPro_bold_outline.bam
+:display: Created output of type ParasiteBuffer
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:task(error): Exception occurred in PythonTask readerPollTask-497496680

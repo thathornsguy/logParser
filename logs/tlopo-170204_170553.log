@@ -1,0 +1,334 @@
+Sat Feb 04 17:05:53 2017: TLOPO_GAMESERVER = gs-3.piratesonline.co
+Sat Feb 04 17:05:53 2017: TLOPO_PLAYCOOKIE = 1122a250a322b06525c86cdd3eff2d2a
+Sat Feb 04 17:05:53 2017: PLocalizer: Running in language: English
+Sat Feb 04 17:05:53 2017: PiratesStart: Starting the game.
+Sat Feb 04 17:05:59 2017: :PiratesStart: getDriverVendor NVIDIA Corporation
+Sat Feb 04 17:05:59 2017: :PiratesStart: getDriverRenderer GeForce GTX 1060 3GB/PCIe/SSE2
+Sat Feb 04 17:05:59 2017: :PiratesStart: getDriverVersion 4.5.0 NVIDIA 375.86
+Sat Feb 04 17:05:59 2017: serverVersion:  tlopo-beta-v1.3.7
+Sat Feb 04 17:06:01 2017: Initializing quest ladders...
+Sat Feb 04 17:06:39 2017: Cannot configure initialisation option "scale" for DirectFrame
+Sat Feb 04 17:06:41 2017: setActiveQuest: c2.4recoverOrders
+Sat Feb 04 17:09:02 2017: setActiveQuest: c2.5deliverOrders
+Sat Feb 04 17:10:16 2017: warning: could not find door index 0 for object 404001791
+Sat Feb 04 17:10:18 2017: setActiveQuest: c2.9visitDarby
+Sat Feb 04 17:11:04 2017: MotionTrail task removed
+Sat Feb 04 17:11:04 2017: :TaskManager: TaskManager.destroy()
+reated output of type ParasiteBuffer
+:text(warning): Creating default TextProperties for name 'purple'
+:text(warning): Creating default TextProperties for name 'orange'
+:text(warning): Creating default TextProperties for name 'maroon'
+:text(warning): Creating default TextProperties for name 'lightGold'
+:downloader: [1F5F27EC] begin CONNECT [ s://gs-3.piratesonline.co:7969 ]
+:display: Created output of type ParasiteBuffer
+:downloader: [1F5F27EC] Could not establish SSL handshake with gs-3.piratesonline.co:7969
+:downloader: [1F3C23BC] begin CONNECT [ s://gs-3.piratesonline.co:7969 ]
+:downloader: Server certificate is pre-approved.
+:downloader: [1F3C23BC] Self-signed certificate from gs-3.piratesonline.co:7969
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:shader: Reading shader file: /c/Program Files (x86)/TLOPO/resources/phase_2/models/sea/water008_20.cg
+:shader(warning): Parameter tex_0_d: use of a texture suffix is deprecated.
+:shader(warning): Parameter tex_0_bb: use of a texture suffix is deprecated.
+:shader(warning): Parameter tex_0_low2: use of a texture suffix is deprecated.
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BriosoPro_bold_outline.bam
+:display:gsg:glgsg: reloading texture oceanWater2-low2 with mipmaps
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:text: Loading font /c/Program Files (x86)/TLOPO/resources/phase_2/models/fonts/BardiT_outline.bam
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display:windisplay: begin QueryPerformanceFrequency
+:display:windisplay: QueryPerformanceFrequency: 14318180
+:display:windisplay: CPU frequency: 3917807236
+:display:windisplay: start CPU ID
+:display:windisplay: end CPU ID
+:display:windisplay: 3 CPU cores, with 6 logical processors.
+:shader: Reading shader file: /c/Program Files (x86)/TLOPO/resources/phase_4/models/swamps/cuba_swamp001_2X.cg
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture FP_shoe_medium_boots_studs with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_skirt_tan with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_medium_boots_studs with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_skirt_tan with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_medium_boots_studs with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_skirt_tan with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_medium_boots_laced with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_untucked_plain3 with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_sash_celticbuckle with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_medium_boots_studs with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_skirt_tan with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_medium_boots_laced with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_untucked_plain3 with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_sash_celticbuckle with mipmaps
+:display:gsg:glgsg: reloading texture FP_gypsy_dress_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_gypsy_dress_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_short_boots_celticpattern with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_medium_boots_studs with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_skirt_tan with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_medium_boots_buckle with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_shorts_3buckle with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_closed_lapel with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_skirt_tan with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_medium_boots_studs with mipmaps
+:display:gsg:glgsg: reloading texture hand_held_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture weapons_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture props_furniture_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture prop_aztec_coin with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_gun_musket_a with mipmaps
+:display:gsg:glgsg: reloading texture pupilDarkBrown with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_short_round_frontlacing with mipmaps
+:display:gsg:glgsg: reloading texture PM_coat_long_cloth_lighttrim with mipmaps
+:display:gsg:glgsg: reloading texture PM_eitc with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_short_round_frontlacing with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_short_round_frontlacing with mipmaps
+:display:gsg:glgsg: reloading texture pupilDarkBrown with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_short_round_frontlacing with mipmaps
+:display:gsg:glgsg: reloading texture PM_coat_long_cloth_lighttrim with mipmaps
+:display:gsg:glgsg: reloading texture PM_eitc with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_short_round_frontlacing with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_short_round_frontlacing with mipmaps
+:display:gsg:glgsg: reloading texture pupilDarkBrown with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_swd_cutlass_a with mipmaps
+:display:gsg:glgsg: reloading texture effectHitSplatA with mipmaps
+:display:gsg:glgsg: reloading texture particleGlow with mipmaps
+:display:gsg:glgsg: reloading texture effectHitSplatA with mipmaps
+:display:gsg:glgsg: reloading texture particleGlow with mipmaps
+:display:gsg:glgsg: reloading texture effectHitSplatA with mipmaps
+:display:gsg:glgsg: reloading texture swordtrail_lines with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display: Created output of type ParasiteBuffer
+:display: Closing wglGraphicsWindow
+:display: Created output of type wglGraphicsWindow
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Unable to set window properties: !undecorated !fixed_size parent:none 
+:display:gsg:glgsg: reloading texture world_map_base with mipmaps
+:display:gsg:glgsg: reloading texture island_dock_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture island_dock_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture island_dock_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture BriosoPro_chipped_1 with mipmaps
+:display:gsg:glgsg: reloading texture BriosoPro_chipped_1 with mipmaps
+:display:gsg:glgsg: reloading texture clouds_medium with mipmaps
+:display:gsg:glgsg: reloading texture stars with mipmaps
+:display:gsg:glgsg: reloading texture stars with mipmaps
+:display:gsg:glgsg: reloading texture transparent with mipmaps
+:display:gsg:glgsg: reloading texture stars with mipmaps
+:display:gsg:glgsg: reloading texture stars with mipmaps
+:display:gsg:glgsg: reloading texture transparent with mipmaps
+:display:gsg:glgsg: reloading texture Sun with mipmaps
+:display:gsg:glgsg: reloading texture gradient with mipmaps
+:display:gsg:glgsg: reloading texture clouds_medium with mipmaps
+:display:gsg:glgsg: reloading texture transparent with mipmaps
+:display:gsg:glgsg: reloading texture clouds_medium with mipmaps
+:display:gsg:glgsg: reloading texture transparent with mipmaps
+:display:gsg:glgsg: reloading texture island_port_royal_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_grass with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_cav_floor_lt with mipmaps
+:display:gsg:glgsg: reloading texture vege_jungle_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture vege_jungle_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture island_dock_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_sand with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_grass with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_grass with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_sand with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_grass with mipmaps
+:display:gsg:glgsg: reloading texture vege_nat_walls_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture island_port_royal_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_treesDark with mipmaps
+:display:gsg:glgsg: reloading texture english_exterior_b_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_cav_wall_lt with mipmaps
+:display:gsg:glgsg: reloading texture caves_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture particleWhiteSmoke with mipmaps
+:display:gsg:glgsg: reloading texture clouds_medium with mipmaps
+:display:gsg:glgsg: reloading texture stars with mipmaps
+:display:gsg:glgsg: reloading texture stars with mipmaps
+:display:gsg:glgsg: reloading texture transparent with mipmaps
+:display:gsg:glgsg: reloading texture stars with mipmaps
+:display:gsg:glgsg: reloading texture stars with mipmaps
+:display:gsg:glgsg: reloading texture transparent with mipmaps
+:display:gsg:glgsg: reloading texture Sun with mipmaps
+:display:gsg:glgsg: reloading texture gradient with mipmaps
+:display:gsg:glgsg: reloading texture clouds_medium with mipmaps
+:display:gsg:glgsg: reloading texture transparent with mipmaps
+:display:gsg:glgsg: reloading texture clouds_medium with mipmaps
+:display:gsg:glgsg: reloading texture transparent with mipmaps
+:display:gsg:glgsg: reloading texture english_exterior_b_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_cobblestone with mipmaps
+:display:gsg:glgsg: reloading texture island_port_royal_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_grass with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_cav_floor_lt with mipmaps
+:display:gsg:glgsg: reloading texture effects2_palette_2tmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture BriosoPro_chipped_outline_1 with mipmaps
+:display:gsg:glgsg: reloading texture BriosoPro_bold_outline_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_gun_musket_a with mipmaps
+:display:gsg:glgsg: reloading texture vege_fern_bush_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture vege_jungle_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture vege_fern_bush_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture vege_jungle_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_blank with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_blank with mipmaps
+:display:gsg:glgsg: reloading texture island_dock_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_sand with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_grass with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_grass with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_sand with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_grass with mipmaps
+:display:gsg:glgsg: reloading texture vege_nat_walls_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_cobblestone with mipmaps
+:display:gsg:glgsg: reloading texture island_port_royal_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_treesDark with mipmaps
+:display:gsg:glgsg: reloading texture rocks_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture shanty_tents_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture props_storage_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture english_exterior_b_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture props_walls_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture shanty_tents_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture english_exterior_b_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture props_furniture_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_blank with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_blank with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_blank with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_blank with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_cav_wall_lt with mipmaps
+:display:gsg:glgsg: reloading texture caves_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture oceanWater2-low2 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_portRoyal_ocean with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_wave with mipmaps
+:display:gsg:glgsg: reloading texture BriosoPro_bold_outline_1 with mipmaps
+:display:gsg:glgsg: reloading texture shanty_tents_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture BriosoPro_bold_outline_1 with mipmaps
+:display:gsg:glgsg: reloading texture BriosoPro_chipped_outline_1 with mipmaps
+:display:gsg:glgsg: reloading texture BriosoPro_bold_outline_1 with mipmaps
+:display:gsg:glgsg: reloading texture particleWhiteSmoke with mipmaps
+:display:gsg:glgsg: reloading texture BriosoPro_chipped_outline_1 with mipmaps
+:display:gsg:glgsg: reloading texture world_map_base with mipmaps
+:display:gsg:glgsg: reloading texture island_dock_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture island_dock_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture island_dock_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture clouds_medium with mipmaps
+:display:gsg:glgsg: reloading texture stars with mipmaps
+:display:gsg:glgsg: reloading texture stars with mipmaps
+:display:gsg:glgsg: reloading texture transparent with mipmaps
+:display:gsg:glgsg: reloading texture stars with mipmaps
+:display:gsg:glgsg: reloading texture stars with mipmaps
+:display:gsg:glgsg: reloading texture transparent with mipmaps
+:display:gsg:glgsg: reloading texture Sun with mipmaps
+:display:gsg:glgsg: reloading texture gradient with mipmaps
+:display:gsg:glgsg: reloading texture clouds_medium with mipmaps
+:display:gsg:glgsg: reloading texture transparent with mipmaps
+:display:gsg:glgsg: reloading texture clouds_medium with mipmaps
+:display:gsg:glgsg: reloading texture transparent with mipmaps
+:display:gsg:glgsg: reloading texture island_port_royal_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_grass with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_cav_floor_lt with mipmaps
+:display:gsg:glgsg: reloading texture vege_jungle_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture vege_jungle_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture island_dock_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_sand with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_grass with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_grass with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_sand with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_grass with mipmaps
+:display:gsg:glgsg: reloading texture vege_nat_walls_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture island_port_royal_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_treesDark with mipmaps
+:display:gsg:glgsg: reloading texture english_exterior_b_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_cav_wall_lt with mipmaps
+:display:gsg:glgsg: reloading texture caves_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture particleWhiteSmoke with mipmaps
+:display:gsg:glgsg: reloading texture clouds_medium with mipmaps
+:display:gsg:glgsg: reloading texture stars with mipmaps
+:display:gsg:glgsg: reloading texture stars with mipmaps
+:display:gsg:glgsg: reloading texture transparent with mipmaps
+:display:gsg:glgsg: reloading texture stars with mipmaps
+:display:gsg:glgsg: reloading texture stars with mipmaps
+:display:gsg:glgsg: reloading texture transparent with mipmaps
+:display:gsg:glgsg: reloading texture Sun with mipmaps
+:display:gsg:glgsg: reloading texture gradient with mipmaps
+:display:gsg:glgsg: reloading texture clouds_medium with mipmaps
+:display:gsg:glgsg: reloading texture transparent with mipmaps
+:display:gsg:glgsg: reloading texture clouds_medium with mipmaps
+:display:gsg:glgsg: reloading texture transparent with mipmaps
+:display:gsg:glgsg: reloading texture english_exterior_b_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_cobblestone with mipmaps
+:display:gsg:glgsg: reloading texture island_port_royal_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_grass with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_cav_floor_lt with mipmaps
+:display:gsg:glgsg: reloading texture effects2_palette_2tmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_gun_musket_a with mipmaps
+:display:gsg:glgsg: reloading texture vege_fern_bush_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture vege_jungle_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture vege_fern_bush_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture vege_jungle_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_blank with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_blank with mipmaps
+:display:gsg:glgsg: reloading texture island_dock_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_sand with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_grass with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_grass with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_sand with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_grass with mipmaps
+:display:gsg:glgsg: reloading texture vege_nat_walls_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_cobblestone with mipmaps
+:display:gsg:glgsg: reloading texture island_port_royal_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_multi_treesDark with mipmaps
+:display:gsg:glgsg: reloading texture rocks_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture shanty_tents_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture props_storage_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture english_exterior_b_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture props_walls_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture shanty_tents_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture english_exterior_b_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture props_furniture_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_blank with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_blank with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_blank with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_blank with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_cav_wall_lt with mipmaps
+:display:gsg:glgsg: reloading texture caves_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_portRoyal_ocean with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_wave with mipmaps
+:display:gsg:glgsg: reloading texture shanty_tents_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture particleWhiteSmoke with mipmaps
+:display:gsg:glgsg: reloading texture particleFlame with mipmaps
+:display:gsg:glgsg: reloading texture particleFlame with mipmaps
+:display:gsg:glgsg: reloading texture waterfall_rock_repeat with mipmaps
+:display:gsg:glgsg: reloading texture waterfall_rock_repeat with mipmaps
+:display:gsg:glgsg: reloading texture treasure_chest_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_dock_wave with mipmaps
+:display:gsg:glgsg: reloading texture island_dock_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_are_isl_dock_wave with mipmaps
+:display:gsg:glgsg: reloading texture island_dock_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture props_fountain_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture props_fountain_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pupilDarkBrown with mipmaps
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0

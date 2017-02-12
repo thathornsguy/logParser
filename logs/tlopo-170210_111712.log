@@ -1,0 +1,610 @@
+Fri Feb 10 11:17:12 2017: TLOPO_GAMESERVER = gs-1.piratesonline.co
+Fri Feb 10 11:17:12 2017: TLOPO_PLAYCOOKIE = 7a8e1e1cbd5b018ceb4f2125a9d8b4e1
+Fri Feb 10 11:17:12 2017: PLocalizer: Running in language: English
+Fri Feb 10 11:17:12 2017: PiratesStart: Starting the game.
+Fri Feb 10 11:17:17 2017: :PiratesStart: getDriverVendor NVIDIA Corporation
+Fri Feb 10 11:17:17 2017: :PiratesStart: getDriverRenderer GeForce GTX 1060 3GB/PCIe/SSE2
+Fri Feb 10 11:17:17 2017: :PiratesStart: getDriverVersion 4.5.0 NVIDIA 376.53
+Fri Feb 10 11:17:17 2017: serverVersion:  tlopo-beta-v1.3.8
+Fri Feb 10 11:17:18 2017: Initializing quest ladders...
+Fri Feb 10 11:17:54 2017: Cannot configure initialisation option "scale" for DirectFrame
+Fri Feb 10 11:17:56 2017: setActiveQuest: wgr3.1grenadeMaterialsA
+Fri Feb 10 11:39:07 2017: setActiveQuest: wgr4.1grenadeMaterialsB
+Fri Feb 10 11:39:14 2017: presentQuestReset None
+Fri Feb 10 11:44:13 2017: Traceback (most recent call last):
+Fri Feb 10 11:44:13 2017:   File "direct.distributed.ConnectionRepository", line 609, in readerPollUntilEmpty
+Fri Feb 10 11:44:13 2017:   File "direct.distributed.ConnectionRepository", line 616, in readerPollOnce
+Fri Feb 10 11:44:13 2017:   File "otp.distributed.OTPClientRepository", line 1608, in handleDatagram
+Fri Feb 10 11:44:13 2017:   File "pirates.distributed.PiratesClientRepository", line 702, in handleCloseShard
+Fri Feb 10 11:44:13 2017:   File "otp.distributed.OTPClientRepository", line 1495, in handleMessageType
+Fri Feb 10 11:44:13 2017:   File "direct.distributed.ClientRepositoryBase", line 437, in handleUpdateField
+Fri Feb 10 11:44:13 2017:   File "direct.distributed.ClientRepositoryBase", line 445, in __doUpdate
+Fri Feb 10 11:44:13 2017:   File "pirates.pirate.DistributedPlayerPirate", line 1584, in useTargetedSkill
+Fri Feb 10 11:44:13 2017:   File "pirates.battle.DistributedBattleAvatar", line 1499, in useTargetedSkill
+Fri Feb 10 11:44:13 2017:   File "pirates.distributed.DistributedTargetableObject", line 308, in useTargetedSkill
+Fri Feb 10 11:44:13 2017:   File "pirates.pirate.DistributedPlayerPirate", line 1587, in playSkillMovie
+Fri Feb 10 11:44:13 2017:   File "pirates.battle.DistributedBattleAvatar", line 1628, in playSkillMovie
+Fri Feb 10 11:44:13 2017:   File "pirates.battle.CombatAnimations", line 2106, in getCastFireAnim
+Fri Feb 10 11:44:13 2017: AttributeError: 'NoneType' object has no attribute 'setWantAimAssist'
+Fri Feb 10 11:44:13 2017: :TaskManager: TaskManager.destroy()
+nts/BardiT_outline.bam
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:windisplay: begin QueryPerformanceFrequency
+:display:windisplay: QueryPerformanceFrequency: 14318180
+:display:windisplay: CPU frequency: 3917807355
+:display:windisplay: start CPU ID
+:display:windisplay: end CPU ID
+:display:windisplay: 3 CPU cores, with 6 logical processors.
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_patchwork with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_collar with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_medium_boots_BuckleSkullSole with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_sash_goldbuckle with mipmaps
+:display:gsg:glgsg: reloading texture FP_vest_closed_plain with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_patchwork with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_collar with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_medium_boots_BuckleSkullSole with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_sash_goldbuckle with mipmaps
+:display:gsg:glgsg: reloading texture FP_vest_closed_plain with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_gun_musket_a with mipmaps
+:display:gsg:glgsg: reloading texture treasure_chest_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture prop_aztec_coin with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture jr_crew_palette_3cmla_1 with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture PM_belt_buckle_square_sculpture_blackbutton with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_strap_square_sculpture_blackbutton with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_tall_boots_advanced_outfit with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_tanktop_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_coat_long_french with mipmaps
+:display:gsg:glgsg: reloading texture hat_tricorn_black_skull with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_tanktop_buttons with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_tucked_leather_buttonfront with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_tucked_cotton_leathersidepocket with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_tucked_cotton_leathersidepocket with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_tucked_cotton_leathersidepocket with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_tucked_cotton_leathersidepocket with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_tucked_cotton_leathersidepocket with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture hat_eitc with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_swd_cutlass_a with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_knf_dirk_a with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture props_furniture_palette_4amla_1 with mipmaps
+:display:gsg:glgsg: reloading texture voodooGhost with mipmaps
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:display:gsg:glgsg: reloading texture effectVoodooShockwave with mipmaps
+:display:gsg:glgsg: reloading texture particleGlow with mipmaps
+:display:gsg:glgsg: reloading texture effectHitSplatA with mipmaps
+:text(warning): pop_properties encountered without preceding push_properties.
+:display:gsg:glgsg: reloading texture effectTaboo with mipmaps
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:display:gsg:glgsg: reloading texture particleWasp_1 with mipmaps
+:display:gsg:glgsg: reloading texture particleWasp_2 with mipmaps
+:display:gsg:glgsg: reloading texture particleWasp_0 with mipmaps
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:display: Created output of type ParasiteBuffer
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:display:gsg:glgsg: reloading texture pir_t_hnd_trs_bag with mipmaps
+:display:gsg:glgsg: reloading texture particleSpark with mipmaps
+:display:gsg:glgsg: reloading texture particleSpark with mipmaps
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:display:gsg:glgsg: reloading texture effectVoodooShockwave with mipmaps
+:display:gsg:glgsg: reloading texture effectVoodooShockwave with mipmaps
+:display:gsg:glgsg: reloading texture effectVoodooShockwave with mipmaps
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:display: Created output of type ParasiteBuffer
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:text(warning): pop_properties encountered without preceding push_properties.
+:display:gsg:glgsg: reloading texture weapons_palette_2tmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture swordtrail_lines with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture ships_static_a_palette_3cmla_1_swp_1 with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_shp_clr_navy with mipmaps
+:display:gsg:glgsg: reloading texture ships_static_a_palette_3cmla_1_swp_1 with mipmaps
+:display:gsg:glgsg: reloading texture ships_static_a_palette_3cmla_1_swp_1 with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture PM_belt_sash_celticbuckle with mipmaps
+:display:gsg:glgsg: reloading texture PM_belt_sash_celticbuckle with mipmaps
+:display:gsg:glgsg: reloading texture hand_held_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture FP_shoe_tall_boots_1buckle with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_worker with mipmaps
+:display:gsg:glgsg: reloading texture FP_bartender_dress_a with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture PM_pant_shorts_1buttonflap with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_eitc_boots_assassin with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_shared_cloth_plain1 with mipmaps
+:display:gsg:glgsg: reloading texture PM_vest_open_clasp with mipmaps
+:interval(warning): CInterval::priv_finalize() called for LerpColorScaleInterval-2899 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpColorScaleInterval-2899 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpScaleInterval-2898 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpScaleInterval-2898 in state final.
+:interval(warning): CInterval::priv_finalize() called for LerpPosInterval-2897 in state final.
+:interval(warning): CLerpNodePathInterval::priv_step() called for LerpPosInterval-2897 in state final.
+:display: Created output of type ParasiteBuffer
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture world_map_base with mipmaps
+:display:gsg:glgsg: reloading texture particleVolcanoSmoke with mipmaps
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture particleSmoke with mipmaps
+:display:gsg:glgsg: reloading texture particleSmoke with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:display:gsg:glgsg: reloading texture effectWindBlur with mipmaps
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:text(warning): Unknown TextGraphic: badge-0-0
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+:display:gsg:glgsg: reloading texture FP_hat_dress_intermediate_outfit with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_frontties with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_vest_lowcut_redbrown with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_intermediate_outfit_feather with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_greenstripes with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_ruffles with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_strap_weave with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_buckle_weave with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_ruffles with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_intermediate_outfit with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_frontties with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_vest_lowcut_redbrown with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_intermediate_outfit_feather with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_stf_dark_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_greenstripes with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_ruffles with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_strap_weave with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_buckle_weave with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_ruffles with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_intermediate_outfit with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_frontties with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_vest_lowcut_redbrown with mipmaps
+:display:gsg:glgsg: reloading texture hat_tricorn_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_tucked_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_tall_boots_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_intermediate_outfit_feather with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_stf_dark_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_greenstripes with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_ruffles with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_strap_weave with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_buckle_weave with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_ruffles with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_intermediate_outfit with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_frontties with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_vest_lowcut_redbrown with mipmaps
+:display:gsg:glgsg: reloading texture hat_tricorn_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_tucked_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_tall_boots_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_intermediate_outfit_feather with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_stf_dark_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_greenstripes with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_ruffles with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_strap_weave with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_buckle_weave with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_ruffles with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_intermediate_outfit with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_frontties with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_vest_lowcut_redbrown with mipmaps
+:display:gsg:glgsg: reloading texture hat_tricorn_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_tucked_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_tall_boots_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_intermediate_outfit_feather with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_stf_dark_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_greenstripes with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_ruffles with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_strap_weave with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_buckle_weave with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_ruffles with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_intermediate_outfit with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_frontties with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_vest_lowcut_redbrown with mipmaps
+:display:gsg:glgsg: reloading texture hat_tricorn_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_tucked_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_tall_boots_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_intermediate_outfit_feather with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_stf_dark_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_greenstripes with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_ruffles with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_strap_weave with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_buckle_weave with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_ruffles with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_intermediate_outfit with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_frontties with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_vest_lowcut_redbrown with mipmaps
+:display:gsg:glgsg: reloading texture hat_tricorn_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_tucked_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_tall_boots_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_intermediate_outfit_feather with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_stf_dark_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_greenstripes with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_ruffles with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_strap_weave with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_buckle_weave with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_ruffles with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_intermediate_outfit with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_frontties with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_vest_lowcut_redbrown with mipmaps
+:display:gsg:glgsg: reloading texture hat_tricorn_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_tucked_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_tall_boots_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_intermediate_outfit_feather with mipmaps
+:display:gsg:glgsg: reloading texture pir_t_hnd_stf_dark_a with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_greenstripes with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_ruffles with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_strap_weave with mipmaps
+:display:gsg:glgsg: reloading texture FP_belt_buckle_weave with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_long_sleeve_lowcut_ruffles with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_intermediate_outfit with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_pant_short_pants_frontties with mipmaps
+:display:gsg:glgsg: reloading texture FP_shirt_short_sleeve_puffy_2ties with mipmaps
+:display:gsg:glgsg: reloading texture FP_vest_lowcut_redbrown with mipmaps
+:display:gsg:glgsg: reloading texture hat_tricorn_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_pant_long_pants_tucked_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_shoe_tall_boots_valentines with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture PM_shirt_long_sleeve_puffy_center_tie with mipmaps
+:display:gsg:glgsg: reloading texture FP_hat_dress_intermediate_outfit_feather with mipmaps
+:display:gsg:glgsg: reloading texture effectSkull with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_chest_mono_ship_anchor with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_arm_mono_wave_fan with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_arm_mono_wave_fan with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_chest_mono_ship_anchor with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_arm_mono_wave_fan with mipmaps
+:display:gsg:glgsg: reloading texture tattoo_chest_mono_ship_anchor with mipmaps
+:display:gsg:glgsg: reloading texture pirate_female_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture pirate_female_palette_3cmla_1 with mipmaps
+:display:gsg:glgsg: reloading texture particleDarkSmoke with mipmaps
+:display:gsg:glgsg: reloading texture pig with mipmaps
+:display:gsg:glgsg: reloading texture pig with mipmaps
+:display:gsg:glgsg: reloading texture pig with mipmaps
+:display:gsg:glgsg: reloading texture pig with mipmaps
+:display:gsg:glgsg: reloading texture pig with mipmaps
+:display: Created output of type ParasiteBuffer
+:display: Created output of type ParasiteBuffer
+Assertion failed: !is_empty() at line 1838 of c:\nirai\panda3d\panda\src\pgraph\nodePath.I
+:task(error): Exception occurred in PythonTask readerPollTask-384650176

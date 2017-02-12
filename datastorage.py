@@ -1,3 +1,21 @@
+import os
+import tkFileDialog
+
+def getDirectory():
+    logDirectory = ""
+    if os.path.isfile(".\cfg"):
+        configFile = open(".\cfg", "r")
+        logDirectory = configFile.readline().strip()
+        configFile.close()
+    else:
+        logDirectory = tkFileDialog.askdirectory()
+        if logDirectory == "":
+            return ""
+        configFile = open(".\cfg", "w")
+        configFile.write(logDirectory)
+        configFile.close()
+    return logDirectory
+
 class logManager:
     def __init__(self):
         # dictionary of all log objects
@@ -7,6 +25,18 @@ class logManager:
         self.lastLineStats = {}
         self.fails = 0
         self.nonFails = 0
+        self.directory = getDirectory()
+        self.populate()
+
+
+    def empty(self):
+        self.logDictionary = {}
+        self.logList = []
+        self.lastLinesStats = {}
+        self.lastLineStats = {}
+        self.fails = 0
+        self.nonFails = 0
+
     def insertLog(self,log):
         # insert the log into the dictionary indexed by the date time the log was created (ie the filename)
         self.logDictionary[(log.date,log.time)] = log
@@ -14,6 +44,32 @@ class logManager:
 
     def getLog(self,date,time):
         return self.logDictionary[(date,time)]
+
+    def update(self):
+        logDirectory = tkFileDialog.askdirectory()
+        if logDirectory == "":
+            return 1
+        self.empty()
+        self.directory = logDirectory
+        os.remove("cfg")
+        configFile = open(".\cfg", "w")
+        configFile.write(logDirectory)
+        configFile.close()
+        self.populate()
+        return 0
+
+
+    def populate(self):
+        allLogNames = os.listdir(self.directory)
+        # iterate over all the log files and create a log object associated with that file
+        for logFileName in allLogNames:
+            # create log object
+            entry = log(5)
+            # populate the object with the data from the log file
+            entry.populate(self.directory, logFileName)
+            # add the log to the list of logs
+            self.insertLog(entry)
+        self.globalStats()
 
     def globalStats(self):
         for log in self.logList:
@@ -24,7 +80,7 @@ class logManager:
             if len(log.lastEntries) != 0:
                 lastLine = log.lastEntries[-1]
                 if lastLine[0] == ":":
-                    key = lastLine.split(":")[1]
+                    key = lastLine.split(" ")[0]
                     if key in self.lastLineStats:
                         self.lastLineStats[key].append(lastLine)
                     else:
@@ -37,7 +93,7 @@ class logManager:
 
             for line in log.lastEntries:
                 if line[0] == ":":
-                    key = line.split(":")[1]
+                    key = line.split(" ")[0]
                     if key in self.lastLinesStats:
                         self.lastLinesStats[key].append(line)
                     else:
@@ -139,7 +195,7 @@ class log:
 
     def checkExit(self):
         if self.launched:
-            if self.lastEntries[-1] == ":display: Closing wglGraphicsWindow":
+            if ":display: Closing wglGraphicsWindow" in  self.lastEntries:
                 self.cleanExit = True
 
 
@@ -265,7 +321,7 @@ class logStatistics:
         lineNum = len(log.launchInfo.allLines) + 1
         for line in log.entryList:
             if line[0] == ":":
-                key = line.split(":")[1]
+                key = line.split(" ")[0]
                 if key in self.dataLineDictionary:
                     self.dataLineDictionary[key].append(str(lineNum))
                 else:

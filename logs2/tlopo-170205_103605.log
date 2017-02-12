@@ -1,0 +1,32 @@
+Sun Feb 05 10:36:05 2017: TLOPO_GAMESERVER = gs-3.piratesonline.co
+Sun Feb 05 10:36:05 2017: TLOPO_PLAYCOOKIE = d2f1dfffe666a366d01a1563e28a6215
+Sun Feb 05 10:36:05 2017: PLocalizer: Running in language: English
+Sun Feb 05 10:36:05 2017: PiratesStart: Starting the game.
+Sun Feb 05 10:36:10 2017: :PiratesStart: getDriverVendor NVIDIA Corporation
+Sun Feb 05 10:36:10 2017: :PiratesStart: getDriverRenderer GeForce GTX 1060 3GB/PCIe/SSE2
+Sun Feb 05 10:36:10 2017: :PiratesStart: getDriverVersion 4.5.0 NVIDIA 375.86
+Sun Feb 05 10:36:10 2017: serverVersion:  tlopo-beta-v1.3.7
+Sun Feb 05 10:36:11 2017: Initializing quest ladders...
+Sun Feb 05 10:36:50 2017: Traceback (most recent call last):
+Sun Feb 05 10:36:50 2017:   File "direct.distributed.ConnectionRepository", line 609, in readerPollUntilEmpty
+Sun Feb 05 10:36:50 2017:   File "direct.distributed.ConnectionRepository", line 616, in readerPollOnce
+Sun Feb 05 10:36:50 2017:   File "otp.distributed.OTPClientRepository", line 1606, in handleDatagram
+Sun Feb 05 10:36:50 2017:   File "otp.distributed.OTPClientRepository", line 1491, in handleMessageType
+Sun Feb 05 10:36:50 2017:   File "otp.distributed.OTPClientRepository", line 1761, in handleGenerateWithRequiredOwner
+Sun Feb 05 10:36:50 2017:   File "otp.distributed.OTPClientRepository", line 1777, in generateWithRequiredOwner
+Sun Feb 05 10:36:50 2017:   File "pirates.quest.DistributedQuestOV", line 20, in __init__
+Sun Feb 05 10:36:50 2017:   File "pirates.quest.DistributedQuest", line 64, in __init__
+Sun Feb 05 10:36:50 2017: NameError: global name 'localAvatar' is not defined
+Sun Feb 05 10:36:50 2017: Traceback (most recent call last):
+Sun Feb 05 10:36:50 2017:   File "direct.distributed.ClientRepositoryBase", line 558, in sendHeartbeatTask
+Sun Feb 05 10:36:50 2017:   File "otp.distributed.OTPClientRepository", line 1887, in sendHeartbeat
+Sun Feb 05 10:36:50 2017:   File "direct.distributed.ConnectionRepository", line 609, in readerPollUntilEmpty
+Sun Feb 05 10:36:50 2017:   File "direct.distributed.ConnectionRepository", line 616, in readerPollOnce
+Sun Feb 05 10:36:50 2017:   File "otp.distributed.OTPClientRepository", line 1606, in handleDatagram
+Sun Feb 05 10:36:50 2017:   File "otp.distributed.OTPClientRepository", line 1491, in handleMessageType
+Sun Feb 05 10:36:50 2017:   File "otp.distributed.OTPClientRepository", line 1761, in handleGenerateWithRequiredOwner
+Sun Feb 05 10:36:50 2017:   File "otp.distributed.OTPClientRepository", line 1777, in generateWithRequiredOwner
+Sun Feb 05 10:36:50 2017:   File "pirates.quest.DistributedQuestOV", line 20, in __init__
+Sun Feb 05 10:36:50 2017:   File "pirates.quest.DistributedQuest", line 64, in __init__
+Sun Feb 05 10:36:50 2017: NameError: global name 'localAvatar' is not defined
+Sun Feb 05 10:36:50 2017: :TaskManager: TaskManager.destroy()
