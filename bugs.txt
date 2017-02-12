@@ -1,0 +1,2 @@
+Log Stats:
+	If a log has large amounts of a specific tag (~700+) the line printed out in the tab is invisible for roughly the first portion.

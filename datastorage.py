@@ -1,6 +1,7 @@
 import os
 import tkFileDialog
 
+# used to get a log directory on startup, might be merged with other version of this method
 def getDirectory():
     logDirectory = ""
     if os.path.isfile(".\cfg"):
@@ -16,19 +17,30 @@ def getDirectory():
         configFile.close()
     return logDirectory
 
+# contains all the logs being looked at
 class logManager:
     def __init__(self):
         # dictionary of all log objects
         self.logDictionary = {}
+        # list of all log objects
         self.logList = []
+        # contains the information needed to produce the statistics for the last 5 lines
         self.lastLinesStats = {}
+        # contains the information needed the produce the statistics for the last line
         self.lastLineStats = {}
+        # the number of logs that did not close gracefully
         self.fails = 0
+        # the number of logs that closed gracefully
         self.nonFails = 0
+        # the directory of the log files being looked at
         self.directory = getDirectory()
+        # if a directory was not chosen, close the program
+        if self.directory == "":
+            exit(-1)
+        # get the data from the directory chosen
         self.populate()
 
-
+    # empty the values of the class, used injuction with update
     def empty(self):
         self.logDictionary = {}
         self.logList = []
@@ -37,28 +49,39 @@ class logManager:
         self.fails = 0
         self.nonFails = 0
 
+
     def insertLog(self,log):
         # insert the log into the dictionary indexed by the date time the log was created (ie the filename)
         self.logDictionary[(log.date,log.time)] = log
+        # append the log to the logList
         self.logList.append(log)
 
+    # return the log specified by the given date and time
     def getLog(self,date,time):
         return self.logDictionary[(date,time)]
 
+    # update the information of this object based on the new directory provided
     def update(self):
+        # ask user for a new directory
         logDirectory = tkFileDialog.askdirectory()
+        # if no directory was chosen, do nothing
         if logDirectory == "":
             return 1
+        # empty all data
         self.empty()
+        # update the directory being looked at
         self.directory = logDirectory
+        # remove the current configuration file
         os.remove("cfg")
+        # create a new configuration file
         configFile = open(".\cfg", "w")
         configFile.write(logDirectory)
         configFile.close()
+        # call populate to update this object's data
         self.populate()
         return 0
 
-
+    # method used to initially fill this object with data
     def populate(self):
         allLogNames = os.listdir(self.directory)
         # iterate over all the log files and create a log object associated with that file
@@ -71,26 +94,38 @@ class logManager:
             self.insertLog(entry)
         self.globalStats()
 
+    # create the global statistics based on the current data
     def globalStats(self):
+        # iterate over all logs that are stored in logList
         for log in self.logList:
+            # count the number of fails and non fails
             if log.cleanExit == True:
                 self.nonFails += 1
             else:
                 self.fails += 1
+            # check to see if lastEntries is populated, ie generated non launch info
+            # if it has add that last entry to the lastLineStats dictionary
             if len(log.lastEntries) != 0:
+                # get the last line of the last 5 lines
                 lastLine = log.lastEntries[-1]
+                # check to see if the line is a tag or not
                 if lastLine[0] == ":":
+                    # if it is a tag extract what tag it is
                     key = lastLine.split(" ")[0]
+                    # check to see if this tag has laready been entered into the dictionary
                     if key in self.lastLineStats:
                         self.lastLineStats[key].append(lastLine)
                     else:
+                        # if it hasn't create a list containing the line and add it to the dictionary
                         self.lastLineStats[key] = [lastLine]
                 else:
-                    if "Failed Assertion" in self.lastLineStats:
-                        self.lastLineStats["Failed Assertion"].append(lastLine)
+                    # check to see if a Failed assertion has been added or not
+                    if "Assertion Failed" in self.lastLineStats:
+                        self.lastLineStats["Assertion Failed"].append(lastLine)
                     else:
-                        self.lastLineStats["Failed Assertion"]=[lastLine]
+                        self.lastLineStats["Assertion Failed"]=[lastLine]
 
+            # iterate over all lines in lastEntries, virtually the same thing as above as far as comments are concerned
             for line in log.lastEntries:
                 if line[0] == ":":
                     key = line.split(" ")[0]
@@ -99,11 +134,12 @@ class logManager:
                     else:
                         self.lastLinesStats[key] = [line]
                 else:
-                    if "Failed Assertion" in self.lastLinesStats:
-                        self.lastLinesStats["Failed Assertion"].append(line)
+                    if "Assertion Failed" in self.lastLinesStats:
+                        self.lastLinesStats["Assertion Failed"].append(line)
                     else:
-                        self.lastLinesStats["Failed Assertion"] = [line]
+                        self.lastLinesStats["Assertion Failed"] = [line]
 
+    # produce a string consisting of the global stats information, relatively self explanatory
     def getStats(self):
         toReturn = "Number of Logs: "+str(len(self.logList))+"\n"
         toReturn += "Number of Clean Exits: " + str(self.nonFails) + "\n"
@@ -145,6 +181,7 @@ class log:
         # the statistics object associated with this log file
         self.stats = None
 
+    # get the date and time from the filename of this logfile
     def cleanDateTime(self,rawDate):
         splitTimeDate = rawDate.split("_")
         date = splitTimeDate[0].split("-")[1]
@@ -193,12 +230,15 @@ class log:
         # close the log file descriptor
         logFile.close()
 
+    # determine if this log file exited gracefully or not and set the cleanExit variable
     def checkExit(self):
+        # first check if this log has more than launch information
         if self.launched:
+            # then check if the following line happens to be in the last 5 entries
             if ":display: Closing wglGraphicsWindow" in  self.lastEntries:
                 self.cleanExit = True
 
-
+    # concatenates all lines of data and their associated line numbers into a string separated by newlines
     def allLogsToString(self):
         toReturn = ""
         lineNum = len(self.launchInfo.allLines) + 1
@@ -207,10 +247,9 @@ class log:
             lineNum += 1
         return toReturn
 
-
+    # generate the summary page information and return it as a string
     def logSummaryToString(self):
-        toReturn = ""
-        toReturn += "Log Filename: "+self.fileName+"\n"
+        toReturn = "Log Filename: "+self.fileName+"\n"
         toReturn += "Date: " + self.date + "\n"
         toReturn += "Time: " + self.time + "\n"
         toReturn += "Clean Exit: " + str(self.cleanExit) + "\n"
@@ -311,28 +350,40 @@ class launchInfo:
             lineNum += 1
         return toReturn
 
+# class that represents the statistics for a log object
 class logStatistics:
 
     def __init__(self,log):
+        # the number of lines in the log file
         self.numLines =  len(log.entryList) + len(log.launchInfo.allLines)
+        # the number of lines associated with the launch information
         self.numLaunchLines = len(log.launchInfo.allLines)
+        # the number of lines associated with data
         self.numDataLines = len(log.entryList)
+        # the dictionary containing all data tags keys and their line numbers
         self.dataLineDictionary = {}
+        # get the inital line number based on the last number of the launch info
         lineNum = len(log.launchInfo.allLines) + 1
+        # iterate over all lines in the log object
         for line in log.entryList:
+            # check to see if the line has a tag
             if line[0] == ":":
+                # extract the tag from the line
                 key = line.split(" ")[0]
+                # insert the line number of this line indexed by the tag
                 if key in self.dataLineDictionary:
                     self.dataLineDictionary[key].append(str(lineNum))
                 else:
                     self.dataLineDictionary[key] = [str(lineNum)]
             else:
-                if "Failed Assertion" in self.dataLineDictionary:
-                    self.dataLineDictionary["Failed Assertion"].append(str(lineNum))
+                # insert the line number of this line indexed by assertion failed
+                if "Assertion Failed" in self.dataLineDictionary:
+                    self.dataLineDictionary["Assertion Failed"].append(str(lineNum))
                 else:
-                    self.dataLineDictionary["Failed Assertion"] = [str(lineNum)]
+                    self.dataLineDictionary["Assertion Failed"] = [str(lineNum)]
             lineNum += 1
 
+    # generate a string representation of this object, used on the summary page
     def toString(self):
         toReturn = "Number of Lines Total: " + str(self.numLines)+"\n"
         toReturn += "Number of Launch Lines: " + str(self.numLaunchLines)+"\n"
@@ -343,9 +394,5 @@ class logStatistics:
                     toReturn += "\tLine Tag: \""+key+"\"\n"
                     toReturn += "\tCount: "+str(len(lineNums))+"\n"
                     toReturn += "\tLine Numbers: " + str(lineNums)+"\n\n"
-
-
-
-
 
         return toReturn
