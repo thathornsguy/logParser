@@ -1,0 +1,3 @@
+Refresh Button on Log Files and directory
+Filtering Log Files
+Color Coding Lines based on tag values
