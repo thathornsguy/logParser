@@ -67,19 +67,23 @@ class logManager:
         # if no directory was chosen, do nothing
         if logDirectory == "":
             return 1
-        # empty all data
-        self.empty()
         # update the directory being looked at
         self.directory = logDirectory
         # remove the current configuration file
         os.remove("cfg")
-        # create a new configuration file
+        # create a new configuration file storing the new directory
         configFile = open(".\cfg", "w")
         configFile.write(logDirectory)
         configFile.close()
+        self.refresh()
+        return 0
+
+    # delete and update all log objects inside the current directory
+    def refresh(self):
+        # empty all data
+        self.empty()
         # call populate to update this object's data
         self.populate()
-        return 0
 
     # method used to initially fill this object with data
     def populate(self):
