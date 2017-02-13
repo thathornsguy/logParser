@@ -30,8 +30,8 @@
       <file leaf-file-name="datastorage.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/datastorage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6715">
-              <caret line="396" column="0" lean-forward="false" selection-start-line="396" selection-start-column="0" selection-end-line="396" selection-end-column="0" />
+            <state relative-caret-position="1071">
+              <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
               <folding>
                 <element signature="e#0#9#0" expanded="true" />
               </folding>
@@ -42,8 +42,8 @@
       <file leaf-file-name="windowClasses.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/windowClasses.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+            <state relative-caret-position="323">
+              <caret line="40" column="119" lean-forward="true" selection-start-line="40" selection-start-column="119" selection-end-line="41" selection-end-column="57" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -714,16 +714,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/datastorage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="6715">
-          <caret line="396" column="0" lean-forward="false" selection-start-line="396" selection-start-column="0" selection-end-line="396" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/parser.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
@@ -734,10 +724,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/datastorage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1071">
+          <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/windowClasses.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="35" column="44" lean-forward="true" selection-start-line="35" selection-start-column="44" selection-end-line="35" selection-end-column="44" />
+        <state relative-caret-position="323">
+          <caret line="40" column="119" lean-forward="true" selection-start-line="40" selection-start-column="119" selection-end-line="41" selection-end-column="57" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
