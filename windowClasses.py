@@ -23,27 +23,28 @@ class bootWindow:
         # the frame containing the listbox for log files as well as the textbox for the data associated with log files
         mainFrame = Frame(self.root)
         # the frame containing the listbox for log files and the scroll bar for the listbox
-        listBoxFrame = Frame(mainFrame)
-        # the frame that puts space in between the listbox and textbox
-        mainSpacer = Frame(mainFrame,width=int(self.width/100))
+        listBoxFrame = Frame(mainFrame,width=int(self.width/3))
 
         # the grame containing the details textbox and the x and y scroll bars for that textbox
         detailFrame = Frame(mainFrame)
         # the detail tabs frame
         buttonTabFrame = Frame(detailFrame)
-        buttonSpacer = Frame(buttonTabFrame, width=int(self.width/2.1))
         # scrollbar for the log listbox
         yLogScroll = Scrollbar(listBoxFrame)
         # scrollbars for the detail textbox
         xDetailScroll = Scrollbar(detailFrame,orient=HORIZONTAL)
         yDetailScroll = Scrollbar(detailFrame)
 
+        self.currDirectory = Label(listBoxFrame,text=allEntries.directory)
+        self.currDirectory.pack(side="top",fill=X)
 
+        self.refreshLogsButton = Button(listBoxFrame,command=self.refreshLogsButtonCommand,text="Refresh",bg="#d3d3d3")
+        self.refreshLogsButton.pack(side="bottom",fill=X)
         # the listbox containing all logfile entries
-        self.logListBox = Listbox(listBoxFrame, height=int(self.height//17), width = int(self.width//30),yscrollcommand=yLogScroll.set)
-        self.logListBox.pack(side="left")
+        self.logListBox = Listbox(listBoxFrame,width=int(self.width/30),height=self.height,yscrollcommand=yLogScroll.set)
+        self.logListBox.pack(side="left",fill=BOTH)
         # the textbox that is filled with information about a log file when it is selected in the listbox on the left side of the window
-        self.detailText = Text(detailFrame,wrap=NONE, height=int(self.height//18), width = int(self.width//10.6),xscrollcommand=xDetailScroll.set,yscrollcommand=yDetailScroll.set)
+        self.detailText = Text(detailFrame, height=self.height,width=int(self.width),wrap=NONE, xscrollcommand=xDetailScroll.set,yscrollcommand=yDetailScroll.set)
         # button that changes the detail textbox to the summary info fo the log file
         self.summaryButton = Button(buttonTabFrame,command = self.summaryButtonCommand, text="Log Summary",bg="#a3a3a3")
         self.launchInfoButton = Button(buttonTabFrame,command = self.launchInfoButtonCommand, text="Launch Info",bg="#d3d3d3")
@@ -60,16 +61,15 @@ class bootWindow:
         self.contentsButton.pack(side="left")
         self.logStatsButton.pack(side="left")
         self.globalStatsButton.pack(side="left")
-        buttonSpacer.pack(side="right")
         # add the button frame to the window
-        buttonTabFrame.pack(side="top",pady=2)
+        buttonTabFrame.pack(side="top",pady=2,fill=X)
         # load the scroll bars into their respective frames
         xDetailScroll.pack(side = "bottom",fill=X)
         yDetailScroll.pack(side = "right",fill=Y)
         yLogScroll.pack(side = "right",fill=Y)
 
         # load the  textbox into the main page
-        self.detailText.pack(side = "left")
+        self.detailText.pack(side = "left", fill=BOTH)
 
         # configurations to make the scroll bars work
         yDetailScroll.config(command=self.detailText.yview)
@@ -77,10 +77,9 @@ class bootWindow:
         yLogScroll.config(command = self.logListBox.yview)
 
         # load the frames into the main window
-        listBoxFrame.pack(side="left")
-        detailFrame.pack(side="right")
-        mainSpacer.pack()
-        mainFrame.pack(side = "top")
+        listBoxFrame.pack(side="left",fill=BOTH)
+        detailFrame.pack(side="right",padx=10,fill=BOTH)
+        mainFrame.pack(side = "top",fill=BOTH)
         # create the menu for the window
         m = Menu(self.root)
         fileMenu = Menu(m,tearoff=0)
@@ -97,6 +96,14 @@ class bootWindow:
         # causes the window to open
         self.root.mainloop()
 
+    # refreshes the listbox with the entries in the current directory
+    def refreshLogsButtonCommand(self):
+        self.allEntries.refresh()
+        # delete all entries in the listbox
+        self.logListBox.delete(0, END)
+        # add all the new entries to the listbox
+        self.addToLogFileList(self.allEntries)
+
     # called when the changed directory menu option is clicked
     def changeDirectory(self):
         # update the logManager object
@@ -104,12 +111,10 @@ class bootWindow:
         # if no directory was chosen do nothing
         if returnCode == 1:
             return
-        # change the button colors back to default
-        self.summaryButton.config(bg="#d3d3d3")
-        self.launchInfoButton.config(bg="#d3d3d3")
-        self.contentsButton.config(bg="#d3d3d3")
-        self.logStatsButton.config(bg="#d3d3d3")
-        self.globalStatsButton.config(bg="#d3d3d3")
+
+        # update the directory label
+        self.currDirectory.config(text=self.allEntries.directory)
+
         # delete contents of the detail textbox
         self.detailText.config(state=NORMAL)
         self.detailText.delete("1.0", END)
