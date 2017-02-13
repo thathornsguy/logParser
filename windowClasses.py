@@ -9,8 +9,6 @@ class bootWindow:
         self.logIndex = 0
         # the logManager object associated with the found log files
         self.allEntries = allEntries
-        # the number representing the current tab
-        self.tabNum = 0
         # the root of the Tkinter window
         self.root = Tk()
         # the height of the window being created, creating a class variable in case I want to make the window dynamic insize
@@ -21,6 +19,7 @@ class bootWindow:
         self.root.geometry(str(self.width) + "x" + str(self.height))
         # prevent the window from being resized, may change later to allow dynamic window sizes
         self.root.resizable(0,0)
+
         # the frame containing the listbox for log files as well as the textbox for the data associated with log files
         mainFrame = Frame(self.root)
         # the frame containing the listbox for log files and the scroll bar for the listbox
@@ -46,13 +45,16 @@ class bootWindow:
         # the textbox that is filled with information about a log file when it is selected in the listbox on the left side of the window
         self.detailText = Text(detailFrame,wrap=NONE, height=int(self.height//18), width = int(self.width//10.6),xscrollcommand=xDetailScroll.set,yscrollcommand=yDetailScroll.set)
         # button that changes the detail textbox to the summary info fo the log file
-        self.summaryButton = Button(buttonTabFrame,command = self.summaryButtonCommand, text="Log Summary",bg="#d3d3d3")
+        self.summaryButton = Button(buttonTabFrame,command = self.summaryButtonCommand, text="Log Summary",bg="#a3a3a3")
         self.launchInfoButton = Button(buttonTabFrame,command = self.launchInfoButtonCommand, text="Launch Info",bg="#d3d3d3")
         self.contentsButton = Button(buttonTabFrame,command = self.contentsButtonCommand, text="Log Contents",bg="#d3d3d3")
         self.logStatsButton = Button(buttonTabFrame,command = self.logStatsButtonCommand, text="Log Stats",bg="#d3d3d3")
         self.globalStatsButton = Button(buttonTabFrame,command = self.globalStatsButtonCommand, text="Global Stats",bg="#d3d3d3")
-        # add the buttons to the window
 
+        # the current button that is pressed, default is the summary tab
+        self.currButton = self.summaryButton
+
+        # add the buttons to the window
         self.summaryButton.pack(side="left")
         self.launchInfoButton.pack(side="left")
         self.contentsButton.pack(side="left")
@@ -89,7 +91,7 @@ class bootWindow:
         # add all the log files found in the specified directory to the listbox
         self.addToLogFileList(allEntries)
         # the logic that changes the textbox to the contents of the selected log file
-        self.logListBox.bind('<<ListboxSelect>>', self.updateTextBox)
+        self.logListBox.bind('<<ListboxSelect>>', self.updateSelection)
         # override what happens after the x button is hit to close the window
         self.root.protocol('WM_DELETE_WINDOW',exit)
         # causes the window to open
@@ -118,125 +120,67 @@ class bootWindow:
         self.addToLogFileList(self.allEntries)
 
     # when a log is selected from the listbox update the textbox to the contents of the associated log
-    def updateTextBox(self,evt):
+    def updateSelection(self,evt):
         # get the currently selected tab index
         self.logIndex = self.logListBox.curselection()[0]
-        # update the textbox based on the cuirrently selected tab
-        if self.tabNum == 0:
-            self.summaryButtonCommand()
-        elif self.tabNum == 1:
-            self.launchInfoButtonCommand()
-        elif self.tabNum == 2:
-            self.contentsButtonCommand()
-        elif self.tabNum == 3:
-            self.logStatsButtonCommand()
-        elif self.tabNum == 4:
-            self.globalStatsButtonCommand()
+        # update the textbox based on the currently selected tab
+        self.currButton.invoke()
 
+    # inserts the string toPut into the textbox on the right side of the window
+    def updateTextBox(self,toPut):
+        self.detailText.config(state=NORMAL)
+        self.detailText.delete('1.0', END)
+        self.detailText.insert(INSERT, toPut)
+        self.detailText.config(state=DISABLED)
 
-    # called when the Launch Info tab is selected
-    def updateDetailTextBoxToLaunchInfo(self):
+    # gets the log object associated with the currently selected log in the logListBox
+    def getLog(self):
         # get the logfile date and time from the listbox
         value = self.logListBox.get(self.logIndex).split()
         # get the log object from the logManager object associated with this class
-        log = self.allEntries.getLog(value[0], value[1])
-        # update the textbox to the contents of the selected log file
-        self.detailText.config(state=NORMAL)
-        self.detailText.delete('1.0', END)
-        self.detailText.insert(INSERT, log.launchInfo.getAll())
-        self.detailText.config(state=DISABLED)
+        return self.allEntries.getLog(value[0], value[1])
 
-    # called when the Summary tab is selected
-    def updateDetailTextBoxToSummary(self):
-
-        # get the logfile date and time from the listbox
-        value = self.logListBox.get(self.logIndex).split()
-        # get the log object from the logManager object associated with this class
-        log = self.allEntries.getLog(value[0], value[1])
-        # update the textbox to the contents of the selected log file
-        self.detailText.config(state=NORMAL)
-        self.detailText.delete('1.0', END)
-        self.detailText.insert(INSERT, log.logSummaryToString())
-        self.detailText.config(state=DISABLED)
-
-    # called when the Contents tab is selected
-    def updateDetailBoxToContents(self):
-        # get the logfile date and time from the listbox
-        value = self.logListBox.get(self.logIndex).split()
-        # get the log object from the logManager object associated with this class
-        log = self.allEntries.getLog(value[0], value[1])
-        # update the textbox to the contents of the selected log file
-        self.detailText.config(state=NORMAL)
-        self.detailText.delete('1.0', END)
-        if log.allLogsToString() == "":
-            self.detailText.insert(INSERT, "Failed to Launch. Check \"Launch Info\" tab for all entries of the log file.")
-        else:
-            self.detailText.insert(INSERT, log.allLogsToString())
-        self.detailText.config(state=DISABLED)
-
-    # called when the Local Stats tab is selected
-    def updateDetailBoxToLocalStats(self):
-        # get the logfile date and time from the listbox
-        value = self.logListBox.get(self.logIndex).split()
-        # get the log object from the logManager object associated with this class
-        log = self.allEntries.getLog(value[0], value[1])
-        # update the textbox to the contents of the selected log file
-        self.detailText.config(state=NORMAL)
-        self.detailText.delete('1.0', END)
-        self.detailText.insert(INSERT, log.stats.toString())
-        self.detailText.config(state=DISABLED)
-
-    # called when the Global Stats tab is selected
-    def updateDetailBoxToGlobalStats(self):
-        self.detailText.config(state=NORMAL)
-        self.detailText.delete('1.0', END)
-        self.detailText.insert(INSERT, self.allEntries.getStats())
-        self.detailText.config(state=DISABLED)
 
     # add the log filenames from the logManager object to the log listbox
     def addToLogFileList(self,list):
         for log in list.logList:
             self.logListBox.insert(END,log.date+" "+log.time)
         self.logListBox.selection_set(0)
-        self.updateTextBox(None)
+        self.updateSelection(None)
+
 
     # change the colors of the buttons and update the textbox to the summary information
     def summaryButtonCommand(self):
-        self.updateButtonColors(self.summaryButton)
-        self.updateDetailTextBoxToSummary()
-        self.tabNum = 0
+        log = self.getLog()
+        self.updateTextBox(log.logSummaryToString())
+        self.updateCurrButton(self.summaryButton)
+
 
     # change the colors of the buttons and update the textbox to the summary information
     def launchInfoButtonCommand(self):
-        if self.logIndex != -1:
-            self.updateButtonColors(self.launchInfoButton)
-            self.updateDetailTextBoxToLaunchInfo()
-            self.tabNum = 1
+        log = self.getLog()
+        self.updateTextBox(log.launchInfo.getAll())
+        self.updateCurrButton(self.launchInfoButton)
 
     # change the colors of the buttons and update the textbox to the summary information
     def contentsButtonCommand(self):
-        if self.logIndex != -1:
-            self.updateButtonColors(self.contentsButton)
-            self.updateDetailBoxToContents()
-            self.tabNum = 2
+        log = self.getLog()
+        self.updateTextBox(log.allLogsToString())
+        self.updateCurrButton(self.contentsButton)
 
     # change the colors of the buttons and update the textbox to the summary information
     def logStatsButtonCommand(self):
-        if self.logIndex != -1:
-            self.updateButtonColors(self.logStatsButton)
-            self.updateDetailBoxToLocalStats()
-            self.tabNum = 3
+        log = self.getLog()
+        self.updateTextBox(log.stats.toString())
+        self.updateCurrButton(self.logStatsButton)
 
     # change the colors of the buttons and update the textbox to the summary information
     def globalStatsButtonCommand(self):
-        self.updateButtonColors(self.globalStatsButton)
-        self.updateDetailBoxToGlobalStats()
-        self.tabNum = 4
+        log = self.getLog()
+        self.updateTextBox(self.allEntries.getStats())
+        self.updateCurrButton(self.globalStatsButton)
 
-    def updateButtonColors(self,curButton):
-        self.globalStatsButton.config(bg="#d3d3d3")
-        self.summaryButton.config(bg="#d3d3d3")
-        self.launchInfoButton.config(bg="#d3d3d3")
-        self.contentsButton.config(bg="#d3d3d3")
-        self.logStatsButton.config(bg="#d3d3d3")
-        curButton.config(bg="#a3a3a3")
+    def updateCurrButton(self,nextButton):
+        self.currButton.config(bg="#d3d3d3")
+        nextButton.config(bg="#a3a3a3")
+        self.currButton = nextButton
