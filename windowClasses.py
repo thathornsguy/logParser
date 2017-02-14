@@ -2,6 +2,7 @@ from Tkinter import *
 import datastorage
 import os
 import tkFileDialog
+import filterClasses
 
 class bootWindow:
     def __init__(self,allEntries):
@@ -11,6 +12,7 @@ class bootWindow:
         self.allEntries = allEntries
         # the root of the Tkinter window
         self.root = Tk()
+        self.root.wm_title("Log Parser")
         # the height of the window being created, creating a class variable in case I want to make the window dynamic insize
         self.height = int(self.root.winfo_screenheight()/1.5)
         # the width of the window being created, creating a class variable in case I want to make the window dynamic insize
@@ -19,6 +21,8 @@ class bootWindow:
         self.root.geometry(str(self.width) + "x" + str(self.height))
         # prevent the window from being resized, may change later to allow dynamic window sizes
         # self.root.resizable(0,0)
+
+        self.filter = filterClasses.filter()
 
         # the frame containing the listbox for log files as well as the textbox for the data associated with log files
         mainFrame = Frame(self.root)
@@ -101,7 +105,7 @@ class bootWindow:
         self.root.mainloop()
 
     def filterButtonCommand(self):
-        pass
+       filterClasses.filterWindow(self.filter)
 
     # refreshes the listbox with the entries in the current directory
     def refreshLogsButtonCommand(self):
@@ -192,7 +196,10 @@ class bootWindow:
         self.updateTextBox(self.allEntries.getStats())
         self.updateCurrButton(self.globalStatsButton)
 
+    # sets currButton = nextButton and updates colors
     def updateCurrButton(self,nextButton):
         self.currButton.config(bg="#d3d3d3")
         nextButton.config(bg="#a3a3a3")
         self.currButton = nextButton
+
+
