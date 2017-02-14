@@ -18,12 +18,12 @@ class bootWindow:
         # setting the height and width of the tkinter window
         self.root.geometry(str(self.width) + "x" + str(self.height))
         # prevent the window from being resized, may change later to allow dynamic window sizes
-        self.root.resizable(0,0)
+        # self.root.resizable(0,0)
 
         # the frame containing the listbox for log files as well as the textbox for the data associated with log files
         mainFrame = Frame(self.root)
         # the frame containing the listbox for log files and the scroll bar for the listbox
-        listBoxFrame = Frame(mainFrame,width=int(self.width/3))
+        listBoxFrame = Frame(mainFrame)
 
         # the grame containing the details textbox and the x and y scroll bars for that textbox
         detailFrame = Frame(mainFrame)
@@ -38,11 +38,15 @@ class bootWindow:
         self.currDirectory = Label(listBoxFrame,text=allEntries.directory)
         self.currDirectory.pack(side="top",fill=X)
 
-        self.refreshLogsButton = Button(listBoxFrame,command=self.refreshLogsButtonCommand,text="Refresh",bg="#d3d3d3")
-        self.refreshLogsButton.pack(side="bottom",fill=X)
+        listBoxButtonFrame = Frame(listBoxFrame)
+        self.refreshLogsButton = Button(listBoxButtonFrame,command=self.refreshLogsButtonCommand,text="Refresh",bg="#d3d3d3")
+        self.refreshLogsButton.pack(side="left",fill=X,expand=1)
+        self.filterButton = Button(listBoxButtonFrame,command=self.filterButtonCommand,bg="#d3d3d3",text="Filter")
+        self.filterButton.pack(side="left",fill=X,expand=1)
+        listBoxButtonFrame.pack(side="bottom",fill=X)
         # the listbox containing all logfile entries
-        self.logListBox = Listbox(listBoxFrame,width=int(self.width/30),height=self.height,yscrollcommand=yLogScroll.set)
-        self.logListBox.pack(side="left",fill=BOTH)
+        self.logListBox = Listbox(listBoxFrame,height=self.height,yscrollcommand=yLogScroll.set)
+        self.logListBox.pack(side="left",fill=BOTH,expand=1)
         # the textbox that is filled with information about a log file when it is selected in the listbox on the left side of the window
         self.detailText = Text(detailFrame, height=self.height,width=int(self.width),wrap=NONE, xscrollcommand=xDetailScroll.set,yscrollcommand=yDetailScroll.set)
         # button that changes the detail textbox to the summary info fo the log file
@@ -56,11 +60,11 @@ class bootWindow:
         self.currButton = self.summaryButton
 
         # add the buttons to the window
-        self.summaryButton.pack(side="left")
-        self.launchInfoButton.pack(side="left")
-        self.contentsButton.pack(side="left")
-        self.logStatsButton.pack(side="left")
-        self.globalStatsButton.pack(side="left")
+        self.summaryButton.pack(side="left",expand=1,fill=X)
+        self.launchInfoButton.pack(side="left",expand=1,fill=X)
+        self.contentsButton.pack(side="left",expand=1,fill=X)
+        self.logStatsButton.pack(side="left",expand=1,fill=X)
+        self.globalStatsButton.pack(side="left",expand=1,fill=X)
         # add the button frame to the window
         buttonTabFrame.pack(side="top",pady=2,fill=X)
         # load the scroll bars into their respective frames
@@ -77,8 +81,8 @@ class bootWindow:
         yLogScroll.config(command = self.logListBox.yview)
 
         # load the frames into the main window
-        listBoxFrame.pack(side="left",fill=BOTH)
-        detailFrame.pack(side="right",padx=10,fill=BOTH)
+        listBoxFrame.pack(side="left",fill=BOTH,expand=1)
+        detailFrame.pack(side="right",padx=10,fill=BOTH,expand=3)
         mainFrame.pack(side = "top",fill=BOTH)
         # create the menu for the window
         m = Menu(self.root)
@@ -95,6 +99,9 @@ class bootWindow:
         self.root.protocol('WM_DELETE_WINDOW',exit)
         # causes the window to open
         self.root.mainloop()
+
+    def filterButtonCommand(self):
+        pass
 
     # refreshes the listbox with the entries in the current directory
     def refreshLogsButtonCommand(self):
